@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/ahsan.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/projects.css" rel="stylesheet">
+    <link href="assets/css/web-services.css" rel="stylesheet">
+    <link href="assets/css/media-queries.css" rel="stylesheet">
+    <link href="assets/css/ltr.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="container-fluid">
+                <div class="header-wrpr">
+                    <div class="navbtn">
+                        <img src="assets/images/nav-btn-icn.svg" alt="" class="navbtnIcn__img">
+                    </div>
+                    <ul class="hdrList">
+                        <li class="hdrList__item">
+                            <a href="/" class="hdrList__link">الرئيسية</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="about-us.html" class="hdrList__link">من نحن</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="team.html" class="hdrList__link">فريق العمل</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <div class="hdrListDropdown">
+                                <div class="hdrListDropdown-row flex-i">
+                                    <a href="services.html" class="hdrList__link">خدماتنا</a>
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </div>
+                                <div class="hdrListDropdownAb">
+                                    <a href="index.html#cloudSer" class="hdrListDropdownAb__link">خدماتنا السحابية</a>
+                                    <a href="mobile-services.html" class="hdrListDropdownAb__link"> تطبيقات الهاتف </a>
+                                    <a href="index.html#grDesign" class="hdrListDropdownAb__link"> تصميم الجرافيكس </a>
+                                    <a href="web-services.html" class="hdrListDropdownAb__link"> تطوير المواقع
+                                        الإلكترونية </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="projects.html" class="hdrList__link active">مشاريعنا</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="jobs.html" class="hdrList__link">الوظائف</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="blog.html" class="hdrList__link">المدونة</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="contact-us.html" class="hdrList__link">إتصل بنا</a>
+                        </li>
+                    </ul>
+                    <div class="hdrbox">
+                        <div class="hdrboxSerchBtn-dropdown">
+                            <div class="hdrboxSerchBtn flex-a">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <form action="" class="hdrboxSerch__form">
+                                <input type="text" name="search" id="search" placeholder="كيف نساعدك…"
+                                    class="hdrboxSerch__input">
+                                <button type="submit" class="hdrboxSerch__btn">
+                                    <span class="sp1">إستكشف</span>
+                                    <span class="sp2">الآن</span>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="langbox">
+                            <div class="langboxmini ar">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                <p class="langboxmini__p">Ar</p>
+                            </div>
+                            <div class="langboxmini en active">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                <p class="langboxmini__p">En</p>
+                            </div>
+                        </div>
+                        <div class="hdrboxformDrp">
+                            <div class="hdrboxformbtn">
+                                أحصل على إستشارة
+                            </div>
+                            <form action="" class="hdrboxform">
+                                <h2 class="hdrboxform__h">احصل على إجابات مجانية</h2>
+                                <div class="hdrboxformBox">
+                                    <input type="text" class="hdrboxform__input inputF" placeholder="الإسم كامل">
+                                    <p class="hdrboxformBox__p">
+                                        <i class="fa-solid fa-check"></i>
+                                        الإسم كامل
+                                    </p>
+                                </div>
+                                <div class="hdrboxformBox">
+                                    <input type="text" class="hdrboxform__input inputF" placeholder="البريد الإلكتروني">
+                                    <p class="hdrboxformBox__p">
+                                        <i class="fa-solid fa-check"></i>
+                                        البريد الإلكتروني
+                                    </p>
+                                </div>
+                                <div class="hdrboxformBox">
+                                    <input type="text" class="hdrboxform__input inputF" placeholder="الهاتف">
+                                    <p class="hdrboxformBox__p">
+                                        <i class="fa-solid fa-check"></i>
+                                        الهاتف
+                                    </p>
+                                </div>
+                                <div class="hdrboxformBox">
+                                    <textarea type="text" class="hdrboxform__input hdrboxform__input-textarea inputF"
+                                        placeholder="موجز الرسالة"></textarea>
+                                    <p class="hdrboxformBox__p">
+                                        <i class="fa-solid fa-check"></i>
+                                        موجز الرسالة
+                                    </p>
+                                </div>
+                                <button type="submit" class="hdrboxform__btn">
+                                    <span class="hdrboxform__btnsp1 flex-i">
+                                        <i class="fa-solid fa-check"></i>
+                                        إرسال
+                                    </span>
+                                    <i class="fa-solid fa-spinner"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <a href="/" class="logo">
+                            <img src="assets/images/logo.png" alt="" class="logo__img">
+                        </a>
+                    </div>
+                    <div class="mobilemenu">
+                        <div class="mobilemenuhdr flex-i justify-between">
+                            <a href="/" class="mobilemenulogo flex-a">
+                                <img src="assets/images/logo.png" class="mobilemenulogo__img" />
+                            </a>
+                            <div class="mobilemenuClose flex-a r-50">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                        <ul class="mobilemenulist">
+                            <li class="mobilemenulist__item">
+                                <a href="/" class="mobilemenulist__link">الرئيسية</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="about-us.html" class="mobilemenulist__link">من نحن</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <div class="mobilemenulist__itemrow flex-i">
+                                    <a href="services.html" class="mobilemenulist__link">خدماتنا</a>
+                                    <div class="mobilemenulist__itemrowicn flex-a">
+                                        <i class="fa-solid fa-caret-left"></i>
+                                    </div>
+                                </div>
+                                <div class="mobilemenulistDropDown">
+                                    <a href="index.html#cloudSer" class="mobilemenulistDropDown__link">خدماتنا
+                                        السحابية</a>
+                                    <a href="mobile-services.html" class="mobilemenulistDropDown__link"> تطبيقات الهاتف
+                                    </a>
+                                    <a href="index.html#grDesign" class="mobilemenulistDropDown__link"> تصميم الجرافيكس
+                                    </a>
+                                    <a href="web-services.html" class="mobilemenulistDropDown__link"> تطوير المواقع
+                                        الإلكترونية </a>
+                                </div>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="projects.html" class="mobilemenulist__link active">المشاريع</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="team.html" class="mobilemenulist__link">فريق العمل</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="jobs.html" class="mobilemenulist__link">الوظائف</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="blog.html" class="mobilemenulist__link">المدونة</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="contact-us.html" class="mobilemenulist__link">تواصل معنا</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+        <section class="projects">
+            <div class="container-fluid">
+                <div class="projpg-inner">
+                    <div class="projpg-inner-tab">
+                        <ul class="projpg-inner-tablist flex-i">
+                            <li class="projpg-inner-tablist-item">
+                                <i class="fa-brands fa-css3-alt"></i>
+                            </li>
+                            <li class="projpg-inner-tablist-item">
+                                <i class="fa-brands fa-html5"></i>
+                            </li>
+                            <li class="projpg-inner-tablist-item">
+                                <i class="fa-brands fa-html5"></i>
+                            </li>
+                            <li class="projpg-inner-tablist-item">
+                                <i class="fa-brands fa-figma"></i>
+                            </li>
+                            <li class="projpg-inner-tablist-item">
+                                <i class="fa-brands fa-js"></i>
+                            </li>
+                            <li class="projpg-inner-tablist-item">
+                                <i class="fa-brands fa-laravel"></i>
+                            </li>
+                            <li class="projpg-inner-tablist-item">
+                                <i class="fa-brands fa-react"></i>
+                            </li>
+                            <li class="projpg-inner-tablist-item">
+                                <i class="fa-brands fa-php"></i>
+                            </li>
+                            <li class="projpg-inner-tablist-item">
+                                <i class="fa-brands fa-node"></i>
+                            </li>
+                            <li class="projpg-inner-tablist-item">
+                                <i class="fa-brands fa-google-play"></i>
+                            </li>
+                            <li class="projpg-inner-tablist-item">
+                                <i class="fa-brands fa-android"></i>
+                            </li>
+                            <li class="projpg-inner-tablist-item">
+                                <i class="fa-brands fa-app-store-ios"></i>
+                            </li>
+                        </ul>
+                        <a href="#" class="prjideaCon1__btm prjideaCon1__btm2">
+                            <img src="assets/images/team.png" alt="" class="prjideaCon1__btm-img">
+                            <div class="prjideaCon1__btm-mini flex-a r-50">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="projectsBox">
+                        <img src="assets/images/team-icn.png" alt="" class="projectsBox__img">
+                        <h2 class="projectsBox__h">قل مرحبا لفريق عملنا</h2>
+                        <p class="projectsBox__p">
+                            تصميم واجهة مستخدم جذابة وسهلة الاستخدام، وتطوير نظام إدارة محتوى مخصص لتسهيل إدارة المحتوى.
+                        </p>
+                    </div>
+                    <div class="prjtabwrpr flex-a">
+                        <img src="assets/images/icn5.png" alt="" class="prjtabwrpr__icn">
+                        <div class="prjtab">
+                            <div class="prjtabMini flex-a r-50">
+                                <div class="prjtabMini-div flex-a r-50">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                            </div>
+                            <p class="prjtab__p">الموقع الإلكترونية</p>
+                        </div>
+                        <div class="prjtab">
+                            <div class="prjtabMini flex-a r-50">
+                                <div class="prjtabMini-div flex-a r-50">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                            </div>
+                            <p class="prjtab__p">تطبيقات سطح المكتب</p>
+                        </div>
+                        <div class="prjtab">
+                            <div class="prjtabMini flex-a r-50">
+                                <div class="prjtabMini-div flex-a r-50">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                            </div>
+                            <p class="prjtab__p">تطبيقات الهاتف</p>
+                        </div>
+                        <div class="prjtab">
+                            <div class="prjtabMini flex-a r-50">
+                                <div class="prjtabMini-div flex-a r-50">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                            </div>
+                            <p class="prjtab__p">SASS APP</p>
+                        </div>
+                    </div>
+                    <div class="webdelBanner-wrpr">
+                        <div class="webdelBox1">
+                            <img src="assets/images/mob2.png" alt="" class="webdelBox1__img">
+                        </div>
+                        <div class="webdelBox2">
+                            <img src="assets/images/gradient-bg.png" alt="" class="webdelBox2__imgbg">
+                            <img src="assets/images/icn2.png" alt="" class="webdelBox2__icn1">
+                            <img src="assets/images/scribble-sharp-regular.png" alt="" class="webdelBox2__icn2">
+                            <img src="assets/images/webd.jpg" alt="" class="webdelBox2__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- projects end -->
+        <section class="prjBsni">
+            <svg class="prjBsnisvg" width="1.053" height="80" viewBox="0 0 1.053 80">
+                <path id="Path_603" data-name="Path 603" d="M2946.469,4169.5c-.331,230.294,0,187.573,0,187.573"
+                    transform="translate(-2945.916 -4169.5)" fill="none" stroke="#05d1eb" stroke-width="1"
+                    stroke-dasharray="8" />
+            </svg>
+            <div class="container">
+                <div class="prjBsniTab">
+                    <div class="prjBsniTab-mini flex-a r-50">
+                        <i class="fa-solid fa-folder-open"></i>
+                    </div>
+                    <h3 class="prjBsniTab__h3">معرض الأعمال</h3>
+                </div>
+                <div class="prjBsniLinkstab">
+                    <a href="projects.html" class="prjBsniLinkstab__link active">
+                        <i class="fa-solid fa-layer-group"></i>
+                        عرض الكل
+                    </a>
+                    <a href="websites-projects.html" class="prjBsniLinkstab__link">
+                        <i class="fa-solid fa-palette"></i>
+                        المواقع الإلكترونية
+                    </a>
+                    <a href="phone-app-projects.html" class="prjBsniLinkstab__link">
+                        <i class="fa-solid fa-mobile-button"></i>
+                        تطبيقات الهاتف
+                    </a>
+                    <a href="#" class="prjBsniLinkstab__link">
+                        <i class="fa-solid fa-desktop"></i>
+                        تطبيقات سطح المكتب
+                    </a>
+                </div>
+                <div class="prjBsniTabContent">
+                    <a href="project-details.html" class="prjBsniTabCard">
+                        <div class="prjBsniTabCard-row flex-i justify-between">
+                            <div class="prjBsniTabCard-rowbox1">
+                                <i class="fa-solid fa-user-plus"></i>
+                                <h6 class="prjBsniTabCard-rowbox1-h6">فريق العمل</h6>
+                            </div>
+                            <div class="prjBsniTabCard-rowbox2">
+                                <div class="prjBsniTabCard-rowbox2-mini flex-a r-50">
+                                    <i class="fa-solid fa-palette"></i>
+                                </div>
+                                <h6 class="prjBsniTabCard-rowbox2-h6">مواقع إلكترونية</h6>
+                            </div>
+                        </div>
+                        <div class="prjBsniTabCard__imghold">
+                            <img src="assets/images/prj1.jpg" alt="" class="prjBsniTabCard__img">
+                        </div>
+                        <div class="prjBsniTabCard-prjrow justify-between">
+                            <div class="prjBsniTabCard-prjrow-box1">
+                                <div class="prjBsniTabCard-prjrow-box1-row">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    <span class="sp1">الحالة:</span>
+                                    <span class="sp2">مكتمل</span>
+                                </div>
+                                <div class="prjBsniTabCard-prjrow-box1-row">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    <span class="sp1">بتاريخ:</span>
+                                    <span class="sp2">12/5/2022</span>
+                                </div>
+                            </div>
+                            <h6 class="prjBsniTabCard-prjrow-h6">City Image</h6>
+                        </div>
+                    </a>
+                    <a href="project-details.html" class="prjBsniTabCard">
+                        <div class="prjBsniTabCard-row flex-i justify-between">
+                            <div class="prjBsniTabCard-rowbox1">
+                                <i class="fa-solid fa-user-plus"></i>
+                                <h6 class="prjBsniTabCard-rowbox1-h6">فريق العمل</h6>
+                            </div>
+                            <div class="prjBsniTabCard-rowbox2">
+                                <div class="prjBsniTabCard-rowbox2-mini flex-a r-50">
+                                    <i class="fa-solid fa-palette"></i>
+                                </div>
+                                <h6 class="prjBsniTabCard-rowbox2-h6">مواقع إلكترونية</h6>
+                            </div>
+                        </div>
+                        <div class="prjBsniTabCard__imghold">
+                            <img src="assets/images/prj2.jpg" alt="" class="prjBsniTabCard__img">
+                        </div>
+                        <div class="prjBsniTabCard-prjrow justify-between">
+                            <div class="prjBsniTabCard-prjrow-box1">
+                                <div class="prjBsniTabCard-prjrow-box1-row">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    <span class="sp1">الحالة:</span>
+                                    <span class="sp2">مكتمل</span>
+                                </div>
+                                <div class="prjBsniTabCard-prjrow-box1-row">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    <span class="sp1">بتاريخ:</span>
+                                    <span class="sp2">12/5/2022</span>
+                                </div>
+                            </div>
+                            <h6 class="prjBsniTabCard-prjrow-h6">Store Dashboard</h6>
+                        </div>
+                    </a>
+                    <a href="project-details.html" class="prjBsniTabCard">
+                        <div class="prjBsniTabCard-row flex-i justify-between">
+                            <div class="prjBsniTabCard-rowbox1">
+                                <i class="fa-solid fa-user-plus"></i>
+                                <h6 class="prjBsniTabCard-rowbox1-h6">فريق العمل</h6>
+                            </div>
+                            <div class="prjBsniTabCard-rowbox2">
+                                <div class="prjBsniTabCard-rowbox2-mini flex-a r-50">
+                                    <i class="fa-solid fa-mobile"></i>
+                                </div>
+                                <h6 class="prjBsniTabCard-rowbox2-h6">تطبيقات الهاتف</h6>
+                            </div>
+                        </div>
+                        <div class="prjBsniTabCard__imghold">
+                            <img src="assets/images/prj3.jpg" alt="" class="prjBsniTabCard__img">
+                        </div>
+                        <div class="prjBsniTabCard-prjrow justify-between">
+                            <div class="prjBsniTabCard-prjrow-box1">
+                                <div class="prjBsniTabCard-prjrow-box1-row">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    <span class="sp1">الحالة:</span>
+                                    <span class="sp2">مكتمل</span>
+                                </div>
+                                <div class="prjBsniTabCard-prjrow-box1-row">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    <span class="sp1">بتاريخ:</span>
+                                    <span class="sp2">12/5/2022</span>
+                                </div>
+                            </div>
+                            <h6 class="prjBsniTabCard-prjrow-h6">Oz Real Estate</h6>
+                        </div>
+                    </a>
+                    <a href="project-details.html" class="prjBsniTabCard">
+                        <div class="prjBsniTabCard-row flex-i justify-between">
+                            <div class="prjBsniTabCard-rowbox1">
+                                <i class="fa-solid fa-user-plus"></i>
+                                <h6 class="prjBsniTabCard-rowbox1-h6">فريق العمل</h6>
+                            </div>
+                            <div class="prjBsniTabCard-rowbox2">
+                                <div class="prjBsniTabCard-rowbox2-mini flex-a r-50">
+                                    <i class="fa-solid fa-mobile"></i>
+                                </div>
+                                <h6 class="prjBsniTabCard-rowbox2-h6">تطبيقات الهاتف</h6>
+                            </div>
+                        </div>
+                        <div class="prjBsniTabCard__imghold">
+                            <img src="assets/images/prj4.jpg" alt="" class="prjBsniTabCard__img">
+                        </div>
+                        <div class="prjBsniTabCard-prjrow justify-between">
+                            <div class="prjBsniTabCard-prjrow-box1">
+                                <div class="prjBsniTabCard-prjrow-box1-row">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    <span class="sp1">الحالة:</span>
+                                    <span class="sp2">مكتمل</span>
+                                </div>
+                                <div class="prjBsniTabCard-prjrow-box1-row">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    <span class="sp1">بتاريخ:</span>
+                                    <span class="sp2">12/5/2022</span>
+                                </div>
+                            </div>
+                            <h6 class="prjBsniTabCard-prjrow-h6">New Age</h6>
+                        </div>
+                    </a>
+                    <a href="project-details.html" class="prjBsniTabCard">
+                        <div class="prjBsniTabCard-row flex-i justify-between">
+                            <div class="prjBsniTabCard-rowbox1">
+                                <i class="fa-solid fa-user-plus"></i>
+                                <h6 class="prjBsniTabCard-rowbox1-h6">فريق العمل</h6>
+                            </div>
+                            <div class="prjBsniTabCard-rowbox2">
+                                <div class="prjBsniTabCard-rowbox2-mini flex-a r-50">
+                                    <i class="fa-solid fa-mobile"></i>
+                                </div>
+                                <h6 class="prjBsniTabCard-rowbox2-h6">تطبيقات الهاتف</h6>
+                            </div>
+                        </div>
+                        <div class="prjBsniTabCard__imghold">
+                            <img src="assets/images/prj5.jpg" alt="" class="prjBsniTabCard__img">
+                        </div>
+                        <div class="prjBsniTabCard-prjrow justify-between">
+                            <div class="prjBsniTabCard-prjrow-box1">
+                                <div class="prjBsniTabCard-prjrow-box1-row">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    <span class="sp1">الحالة:</span>
+                                    <span class="sp2">مكتمل</span>
+                                </div>
+                                <div class="prjBsniTabCard-prjrow-box1-row">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    <span class="sp1">بتاريخ:</span>
+                                    <span class="sp2">12/5/2022</span>
+                                </div>
+                            </div>
+                            <h6 class="prjBsniTabCard-prjrow-h6">Store Dashboard</h6>
+                        </div>
+                    </a>
+                    <a href="project-details.html" class="prjBsniTabCard">
+                        <div class="prjBsniTabCard-row flex-i justify-between">
+                            <div class="prjBsniTabCard-rowbox1">
+                                <i class="fa-solid fa-user-plus"></i>
+                                <h6 class="prjBsniTabCard-rowbox1-h6">فريق العمل</h6>
+                            </div>
+                            <div class="prjBsniTabCard-rowbox2">
+                                <div class="prjBsniTabCard-rowbox2-mini flex-a r-50">
+                                    <i class="fa-solid fa-palette"></i>
+                                </div>
+                                <h6 class="prjBsniTabCard-rowbox2-h6">تطبيقات الهاتف</h6>
+                            </div>
+                        </div>
+                        <div class="prjBsniTabCard__imghold">
+                            <img src="assets/images/prj6.jpg" alt="" class="prjBsniTabCard__img">
+                        </div>
+                        <div class="prjBsniTabCard-prjrow justify-between">
+                            <div class="prjBsniTabCard-prjrow-box1">
+                                <div class="prjBsniTabCard-prjrow-box1-row">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    <span class="sp1">الحالة:</span>
+                                    <span class="sp2">مكتمل</span>
+                                </div>
+                                <div class="prjBsniTabCard-prjrow-box1-row">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    <span class="sp1">بتاريخ:</span>
+                                    <span class="sp2">12/5/2022</span>
+                                </div>
+                            </div>
+                            <h6 class="prjBsniTabCard-prjrow-h6">Autocad</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="newletter">
+            <div class="container">
+                <h2 class="newletter__h">إشترك بالنشرة البريدية </h2>
+                <div class="newletterBox">
+                    <p class="newletterBox__p">
+                        اشتراكك في النشرة البريدية يعني أنك ستحصل على آخر التحديثات والأخبار المتعلقة بخدماتنا ومنتجاتنا
+                        مباشرة في صندوق البريد الإلكتروني الخاص بك.
+                    </p>
+                    <form action="" class="newletterBox-form">
+                        <input type="text" placeholder="بريدك الإلكتروني" class="newletterBox-form-input">
+                        <button type="submit" class="newletterBox__btn">إشترك</button>
+                    </form>
+                    <img src="assets/images/newsletter.png" alt="" class="newletterBox__img">
+                </div>
+            </div>
+        </section>
+        <!-- newletter end -->
+        <footer class="footer">
+            <img src="assets/images/map2.png" alt="" class="footer__bg">
+            <div class="container">
+                <div class="footer_wrpr">
+                    <div class="footerBox1">
+                        <div class="footerBox1-logo-row">
+                            <img src="assets/images/logo-sm.png" alt="" class="footerBox1__img">
+                            <p class="footerBox1__p">
+                                شركة ميغا ميديا هي شركة تكنولوجيا
+                                معلوماتية متخصصة في تطوير وتقديم حلول البرمجيات
+                            </p>
+                        </div>
+                        <div class="footerCrd">
+                            <div class="footerCrdinner">
+                                <img src="assets/images/t5.png" alt="" class="footerCrd__img">
+                                <h2 class="footerCrd__h">مهندس. حمزة الأحمدي</h2>
+                                <div class="footerCrd-row">
+                                    <i class="fa-solid fa-road-circle-check"></i>
+                                    <p class="footerCrd-name">المدير التنفيذي</p>
+                                </div>
+                                <p class="footerCrd__p">
+                                    تتميز شركة ميغا ميديا ​​بالابتكار والإبداع والحلول التقنية الفعالة و فريق عمل
+                                    إحترافي
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footerBox1Row flex-i justify-between">
+                            <img src="assets/images/team.png" alt="" class="footerBox1Row__img">
+                            <a href="#" class="footerBox1Row__link flex-a">المزيد</a>
+                        </div>
+                    </div>
+                    <div class="footerBox2">
+                        <img src="assets/images/border.png" alt="" class="footer_wrpr_bg">
+                        <div class="footerBox2-wrpr">
+                            <div class="footerBox2Col1">
+                                <div class="footerBox2__tab">ميغا ميديا</div>
+                                <ul class="footerBox2List">
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">الرئيسية</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">من نحن</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">خدماتنا</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">المشاريع</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">فريق العمل</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">الوظائف</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">المدونة</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تواصل معنا</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footerBox2Col2">
+                                <img src="assets/images/gradient-bg.png" alt="" class="footerBox2Col2__bg">
+                                <div class="footerBox2__tab">خدماتنا</div>
+                                <ul class="footerBox2List">
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">خدمات الإستضافة</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تصميم المواقع</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطبيقات الهاتف</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطبيقات سطح المكتب</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تصميم الجرافيكس</a>
+                                    </li>
+                                </ul>
+                                <img src="assets/images/ftrimg.png" alt="" class="footerBox2Col2-img">
+                            </div>
+                            <div class="footerBox2Col3">
+                                <div class="footerBox2__tab">المشاريع</div>
+                                <ul class="footerBox2List">
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">المتاجر الإلكترونية</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطوير العقارات</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطبيقات الصيانة</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطبيقات الحجوزات</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">الطلبات والتوصيل</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="footerBox3">
+                        <div class="footerBox3Box1">
+                            <img src="assets/images/man7.png" alt="" class="footerBox3Box1__img">
+                        </div>
+                        <div class="footerBox3Box2">
+                            <h3 class="footerBox3Box2__h3">حول فكرتك الي تطبيق</h3>
+                            <a href="#" class="footerBox3Box2__link flex-a">أطلب</a>
+                            <img src="assets/images/mob1.png" alt="" class="footerBox3Box2__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerBtm">
+                <div class="container">
+                    <div class="footerBtm-wrpr flex-i justify-between">
+                        <ul class="footerBtmList">
+                            <li class="footerBtmList__item">
+                                <a href="#" class="footerBtmList__link">الشروط والاحكام</a>
+                            </li>
+                            <li class="footerBtmList__item">
+                                <a href="#" class="footerBtmList__link">سياسة الخصوصة</a>
+                            </li>
+                            <li class="footerBtmList__item">
+                                <a href="#" class="footerBtmList__link">تواصل معنا</a>
+                            </li>
+                            <li class="footerBtmList__item">
+                                <a href="#" class="footerBtmList__link">مركز المساعدة</a>
+                            </li>
+                        </ul>
+                        <p class="footerBtm-p">جميع الحقوق محفوظة لدي شركة ميغا ميديا @ 2023</p>
+                        <ul class="soclsmlist">
+                            <li class="soclsmlist__item">
+                                <a href="#" class="soclsmlist__link">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="soclsmlist__item">
+                                <a href="#" class="soclsmlist__link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="soclsmlist__item">
+                                <a href="#" class="soclsmlist__link">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="soclsmlist__item">
+                                <a href="#" class="soclsmlist__link">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <div class="btmtotop">
+            <a href="tel:00971563255653" class="btmtotop__link btmtotop__link1 flex-a r-50">
+                <i class="fa-solid fa-message"></i>
+                <div class="btmtotop__link-tab flex-a">Contact us</div>
+            </a>
+            <a href="https://wa.me/00971563255653" class="btmtotop__link btmtotop__link2 flex-a r-50">
+                <i class="fa-brands fa-whatsapp"></i>
+                <div class="btmtotop__link-tab flex-a">Whatsapp</div>
+            </a>
+            <a href="#" class="btmtotop__link btmtotop__link3 flex-a r-50">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

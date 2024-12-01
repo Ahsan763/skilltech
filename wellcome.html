@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <title>Wellcome</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/ahsan.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/media-queries.css" rel="stylesheet">
+    <link href="assets/css/ltr.css" rel="stylesheet">
+</head>
+
+<body class="wellcome-body">
+    <div class="app">
+        <section class="wellcome">
+            <div class="wellcomePopup">
+                <h2 class="wellcomePopup-h2">نشكرك علي وقتك </h2>
+                <i class="fa-solid fa-face-smile"></i>
+            </div>
+            <div class="wellcometop">مرحبا !</div>
+            <div class="container">
+                <div class="wellcomeBox">
+                    <a href="/" class="wellcomeLogobox flex-a r-50">
+                        <div class="wellcomeLogobox-inner flex-a r-50">
+                            <img src="assets/images/logo-sm.png" alt="" class="wellcomeLogobox-logo">
+                        </div>
+                    </a>
+                    <h2 class="wellcomeBox__h2">Miga Media</h2>
+                    <div class="wellBxSl swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="wellBxSl-slide">
+                                    <h2 class="wellBxSl-slide__h2">من أنت</h2>
+                                    <div class="wellBxSlBox-wrpr">
+                                        <div class="wellBxSlBox">
+                                            <input type="radio" id="a1" name="a1" class="wellBxSlBox__input">
+                                            <label for="a1" class="wellBxSlBox__lbl">
+                                                <div class="wellBxSlBox__lblbox flex-a r-50"></div>
+                                                <p class="wellBxSlBox__lbl-p">لدي مشروع قائم</p>
+                                            </label>
+                                        </div>
+                                        <div class="wellBxSlBox">
+                                            <input type="radio" id="a2" name="a1" class="wellBxSlBox__input">
+                                            <label for="a2" class="wellBxSlBox__lbl">
+                                                <div class="wellBxSlBox__lblbox flex-a r-50"></div>
+                                                <p class="wellBxSlBox__lbl-p">صاحب فكرة جديدة</p>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="wellBxSl-slide">
+                                    <h2 class="wellBxSl-slide__h2">ميزانية مشروعك</h2>
+                                    <div class="wellBxSlBox-wrpr">
+                                        <div class="wellBxSlBox">
+                                            <input type="radio" id="a3" name="a1" class="wellBxSlBox__input">
+                                            <label for="a3" class="wellBxSlBox__lbl">
+                                                <div class="wellBxSlBox__lblbox flex-a r-50"></div>
+                                                <p class="wellBxSlBox__lbl-p">5 الي 10 الف</p>
+                                            </label>
+                                        </div>
+                                        <div class="wellBxSlBox">
+                                            <input type="radio" id="a4" name="a1" class="wellBxSlBox__input">
+                                            <label for="a4" class="wellBxSlBox__lbl">
+                                                <div class="wellBxSlBox__lblbox flex-a r-50"></div>
+                                                <p class="wellBxSlBox__lbl-p">أفضل ان لا اقول</p>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev wellBxSlArr wellBxSlArr1 flex-a r-50">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div class="swiper-button-next wellBxSlArr wellBxSlArr2 flex-a r-50">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="wellcomeBox-btn flex-a">
+                        إرسال
+                    </button>
+                </div>
+                <a href="/" class="wellcome__link flex-a">تخطي</a>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var wellBxSl = new Swiper(".wellBxSl", {
+            slidesPerView: 1,
+            speed: 900,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            }
+        });
+        const wellcomeBoxbtn = document.querySelector('.wellcomeBox-btn');
+        const wellcomePopup = document.querySelector('.wellcomePopup');
+        wellcomeBoxbtn.addEventListener('click', function () {
+            wellcomePopup.classList.add('active')
+        })
+        document.querySelector("body").addEventListener('click', function () {
+            wellcomePopup.classList.remove('active')
+        })
+        wellcomeBoxbtn.addEventListener('click', function (event) {
+            event.stopPropagation();
+        })
+    </script>
+</body>
+
+</html>

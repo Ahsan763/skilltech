@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <title>Team Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/ahsan.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/team.css" rel="stylesheet">
+    <link href="assets/css/media-queries.css" rel="stylesheet">
+    <link href="assets/css/ltr.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="container-fluid">
+                <div class="header-wrpr">
+                    <div class="navbtn">
+                        <img src="assets/images/nav-btn-icn.svg" alt="" class="navbtnIcn__img">
+                    </div>
+                    <ul class="hdrList">
+                        <li class="hdrList__item">
+                            <a href="/" class="hdrList__link">الرئيسية</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="about-us.html" class="hdrList__link">من نحن</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="team.html" class="hdrList__link active">فريق العمل</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <div class="hdrListDropdown">
+                                <div class="hdrListDropdown-row flex-i">
+                                    <a href="services.html" class="hdrList__link">خدماتنا</a>
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </div>
+                                <div class="hdrListDropdownAb">
+                                    <a href="index.html#cloudSer" class="hdrListDropdownAb__link">خدماتنا السحابية</a>
+                                    <a href="mobile-services.html" class="hdrListDropdownAb__link"> تطبيقات الهاتف </a>
+                                    <a href="index.html#grDesign" class="hdrListDropdownAb__link"> تصميم الجرافيكس </a>
+                                    <a href="web-services.html" class="hdrListDropdownAb__link"> تطوير المواقع
+                                        الإلكترونية </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="projects.html" class="hdrList__link">مشاريعنا</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="jobs.html" class="hdrList__link">الوظائف</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="blog.html" class="hdrList__link">المدونة</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="contact-us.html" class="hdrList__link">إتصل بنا</a>
+                        </li>
+                    </ul>
+                    <div class="hdrbox">
+                        <div class="hdrboxSerchBtn-dropdown">
+                            <div class="hdrboxSerchBtn flex-a">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <form action="" class="hdrboxSerch__form">
+                                <input type="text" name="search" id="search" placeholder="كيف نساعدك…"
+                                    class="hdrboxSerch__input">
+                                <button type="submit" class="hdrboxSerch__btn">
+                                    <span class="sp1">إستكشف</span>
+                                    <span class="sp2">الآن</span>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="langbox">
+                            <div class="langboxmini ar">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                <p class="langboxmini__p">Ar</p>
+                            </div>
+                            <div class="langboxmini en active">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                <p class="langboxmini__p">En</p>
+                            </div>
+                        </div>
+                        <div class="hdrboxformDrp">
+                            <div class="hdrboxformbtn">
+                                أحصل على إستشارة
+                            </div>
+                            <form action="" class="hdrboxform">
+                                <h2 class="hdrboxform__h">احصل على إجابات مجانية</h2>
+                                <div class="hdrboxformBox">
+                                    <input type="text" class="hdrboxform__input inputF" placeholder="الإسم كامل">
+                                    <p class="hdrboxformBox__p">
+                                        <i class="fa-solid fa-check"></i>
+                                        الإسم كامل
+                                    </p>
+                                </div>
+                                <div class="hdrboxformBox">
+                                    <input type="text" class="hdrboxform__input inputF" placeholder="البريد الإلكتروني">
+                                    <p class="hdrboxformBox__p">
+                                        <i class="fa-solid fa-check"></i>
+                                        البريد الإلكتروني
+                                    </p>
+                                </div>
+                                <div class="hdrboxformBox">
+                                    <input type="text" class="hdrboxform__input inputF" placeholder="الهاتف">
+                                    <p class="hdrboxformBox__p">
+                                        <i class="fa-solid fa-check"></i>
+                                        الهاتف
+                                    </p>
+                                </div>
+                                <div class="hdrboxformBox">
+                                    <textarea type="text" class="hdrboxform__input hdrboxform__input-textarea inputF"
+                                        placeholder="موجز الرسالة"></textarea>
+                                    <p class="hdrboxformBox__p">
+                                        <i class="fa-solid fa-check"></i>
+                                        موجز الرسالة
+                                    </p>
+                                </div>
+                                <button type="submit" class="hdrboxform__btn">
+                                    <span class="hdrboxform__btnsp1 flex-i">
+                                        <i class="fa-solid fa-check"></i>
+                                        إرسال
+                                    </span>
+                                    <i class="fa-solid fa-spinner"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <a href="/" class="logo">
+                            <img src="assets/images/logo.png" alt="" class="logo__img">
+                        </a>
+                    </div>
+                    <div class="mobilemenu">
+                        <div class="mobilemenuhdr flex-i justify-between">
+                            <a href="/" class="mobilemenulogo flex-a">
+                                <img src="assets/images/logo.png" class="mobilemenulogo__img" />
+                            </a>
+                            <div class="mobilemenuClose flex-a r-50">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                        <ul class="mobilemenulist">
+                            <li class="mobilemenulist__item">
+                                <a href="/" class="mobilemenulist__link">الرئيسية</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="about-us.html" class="mobilemenulist__link">من نحن</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <div class="mobilemenulist__itemrow flex-i">
+                                    <a href="services.html" class="mobilemenulist__link">خدماتنا</a>
+                                    <div class="mobilemenulist__itemrowicn flex-a">
+                                        <i class="fa-solid fa-caret-left"></i>
+                                    </div>
+                                </div>
+                                <div class="mobilemenulistDropDown">
+                                    <a href="index.html#cloudSer" class="mobilemenulistDropDown__link">خدماتنا
+                                        السحابية</a>
+                                    <a href="mobile-services.html" class="mobilemenulistDropDown__link"> تطبيقات الهاتف
+                                    </a>
+                                    <a href="index.html#grDesign" class="mobilemenulistDropDown__link"> تصميم الجرافيكس
+                                    </a>
+                                    <a href="web-services.html" class="mobilemenulistDropDown__link"> تطوير المواقع
+                                        الإلكترونية </a>
+                                </div>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="projects.html" class="mobilemenulist__link">المشاريع</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="team.html" class="mobilemenulist__link active">فريق العمل</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="jobs.html" class="mobilemenulist__link">الوظائف</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="blog.html" class="mobilemenulist__link">المدونة</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="contact-us.html" class="mobilemenulist__link">تواصل معنا</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+        <section class="tdbanner">
+            <div class="container-fluid">
+                <div class="tdbanner-row flex-i justify-between">
+                    <div class="tdbanner-badg flex-a">
+                        لديه 10 مشاريع
+                    </div>
+                    <a href="#" class="tdbanner-link">
+                        <p class="tdbanner-link-p">عودة</p>
+                        <div class="tdbanner-link-mini flex-a r-50">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="tdbannerbox">
+                    <div class="tdbannerbox-mini flex-a r-50">
+                        <img src="assets/images/team/t1.jpg" alt="" class="tdbannerbox-mini-img">
+                    </div>
+                    <h3 class="tdbannerbox__h3">Ahsan Iqbal - Join @ 2022</h3>
+                    <div class="tdbannerbox-tag flex-a">Senior Front-End Designer</div>
+                </div>
+                <ul class="tdlist" role="tablist">
+                    <li class="tdlist__item" role="presentation">
+                        <div class="tdlist__btn active" data-bs-toggle="pill" data-bs-target="#allorders" type="button"
+                            role="tab" aria-selected="true">
+                            <i class="fa-solid fa-layer-group"></i>
+                            <p class="tdlist__btn-p">
+                                معلومات عامة
+                            </p>
+                        </div>
+                    </li>
+                    <li class="tdlist__item" role="presentation">
+                        <div class="tdlist__btn" data-bs-toggle="pill" data-bs-target="#toshippingorders" type="button"
+                            role="tab" aria-selected="false">
+                            <i class="fa-brands fa-twitter"></i>
+                            <p class="tdlist__btn-p">
+                                معلومات عامة
+                            </p>
+                        </div>
+                    </li>
+                    <li class="tdlist__item" role="presentation">
+                        <div class="tdlist__btn" data-bs-toggle="pill" data-bs-target="#completeorders" type="button"
+                            role="tab" aria-selected="false">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="tdlist__btn-p">
+                                معلومات عامة
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- tdbanner end -->
+        <section class="tdtabcontsec">
+            <img src="assets/images/td-bg-icn.png" alt="" class="tdtabcontsec-img">
+            <div class="tdtabcont tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="allorders" role="tabpanel" tabindex="0">
+                    <div class="tdtabcontRow flex-i">
+                        <div class="tdtabcontRow-col1">
+                            <div class="tdtabcontRow-mini flex-a r-50">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <p class="tdtabcontRow-col1-p">الإسم :</p>
+                        </div>
+                        <div class="tdtabcontRow-col2">Muhammad Ahsan Iqbal</div>
+                    </div>
+                    <div class="tdtabcontRow flex-i">
+                        <div class="tdtabcontRow-col1">
+                            <div class="tdtabcontRow-mini flex-a r-50">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <p class="tdtabcontRow-col1-p"> البريد : </p>
+                        </div>
+                        <div class="tdtabcontRow-col2"> ahsan7778@migamedia.ae </div>
+                    </div>
+                    <div class="tdtabcontRow flex-i">
+                        <div class="tdtabcontRow-col1">
+                            <div class="tdtabcontRow-mini flex-a r-50">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                            <p class="tdtabcontRow-col1-p"> القسم : </p>
+                        </div>
+                        <div class="tdtabcontRow-col2"> الويب </div>
+                    </div>
+                    <div class="tdtabcontRow flex-i">
+                        <div class="tdtabcontRow-col1">
+                            <div class="tdtabcontRow-mini flex-a r-50">
+                                <i class="fa-solid fa-suitcase"></i>
+                            </div>
+                            <p class="tdtabcontRow-col1-p"> الوظيفة : </p>
+                        </div>
+                        <div class="tdtabcontRow-col2"> مصمم ومطور واجهات الويب </div>
+                    </div>
+                    <div class="tdtabcontRow flex-i">
+                        <div class="tdtabcontRow-col1">
+                            <div class="tdtabcontRow-mini flex-a r-50">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="tdtabcontRow-col1-p"> الخبرة : </p>
+                        </div>
+                        <div class="tdtabcontRow-col2"> 7 سنوات من الخبرة </div>
+                    </div>
+                    <div class="tdtabcontRow flex-i">
+                        <div class="tdtabcontRow-col1">
+                            <div class="tdtabcontRow-mini flex-a r-50">
+                                <i class="fa-solid fa-flag"></i>
+                            </div>
+                            <p class="tdtabcontRow-col1-p"> الجنسية : </p>
+                        </div>
+                        <div class="tdtabcontRow-col2"> باكستان </div>
+                    </div>
+                    <div class="tdtabcontRow flex-i">
+                        <div class="tdtabcontRow-col1">
+                            <div class="tdtabcontRow-mini flex-a r-50">
+                                <i class="fa-solid fa-earth-americas"></i>
+                            </div>
+                            <p class="tdtabcontRow-col1-p">اللغات : </p>
+                        </div>
+                        <div class="tdtabcontRow-col2"> الإنجليزية - الأردية </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="toshippingorders" role="tabpanel" tabindex="0">
+                    <div class="tdtabcontRow flex-i">
+                        <div class="tdtabcontRow-col1">
+                            <div class="tdtabcontRow-mini flex-a r-50">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <p class="tdtabcontRow-col1-p"> الهاتف : </p>
+                        </div>
+                        <div class="tdtabcontRow-col2">+971556974511</div>
+                    </div>
+                    <div class="tdtabcontRow flex-i">
+                        <div class="tdtabcontRow-col1">
+                            <div class="tdtabcontRow-mini flex-a r-50">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <p class="tdtabcontRow-col1-p"> البريد : </p>
+                        </div>
+                        <div class="tdtabcontRow-col2"> ahsan7778@migamedia.ae </div>
+                    </div>
+                    <div class="tdtabcontRow flex-i">
+                        <div class="tdtabcontRow-col1">
+                            <div class="tdtabcontRow-mini flex-a r-50">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                            <p class="tdtabcontRow-col1-p"> التواصل الإجتماعي : </p>
+                        </div>
+                        <div class="tdtabcontRow-col2">
+                            <ul class="soclsmlist">
+                                <li class="soclsmlist__item">
+                                    <a href="#" class="soclsmlist__link">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="soclsmlist__item">
+                                    <a href="#" class="soclsmlist__link">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="soclsmlist__item">
+                                    <a href="#" class="soclsmlist__link">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="soclsmlist__item">
+                                    <a href="#" class="soclsmlist__link">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="completeorders" role="tabpanel" tabindex="0">
+                    <div class="tdtabcontRow flex-i">
+                        <div class="tdtabcontRow-col1">
+                            <div class="tdtabcontRow-mini flex-a r-50">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="tdtabcontRow-col1-p"> الخبرة : </p>
+                        </div>
+                        <div class="tdtabcontRow-col2"> 7 سنوات من الخبرة </div>
+                    </div>
+                    <div class="tdtabcontRow flex-i">
+                        <div class="tdtabcontRow-col1">
+                            <div class="tdtabcontRow-mini flex-a r-50">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <p class="tdtabcontRow-col1-p"> المشاريع : </p>
+                        </div>
+                        <div class="tdtabcontRow-col2"> 10 مشاريع منفذة </div>
+                    </div>
+                    <div class="tdtabcontTab">
+                        <ul class="megateamcardBox1-smlist flex-i">
+                            <li class="megateamcardBox1-item">
+                                <a href="#" class="megateamcardBox1__link">
+                                    <i class="fa-brands fa-html5"></i>
+                                </a>
+                            </li>
+                            <li class="megateamcardBox1-item">
+                                <a href="#" class="megateamcardBox1__link">
+                                    <i class="fa-brands fa-css3-alt"></i>
+                                </a>
+                            </li>
+                            <li class="megateamcardBox1-item">
+                                <a href="#" class="megateamcardBox1__link">
+                                    <i class="fa-brands fa-figma"></i>
+                                </a>
+                            </li>
+                            <li class="megateamcardBox1-item">
+                                <a href="#" class="megateamcardBox1__link">
+                                    <i class="fa-brands fa-react"></i>
+                                </a>
+                            </li>
+                            <li class="megateamcardBox1-item">
+                                <a href="#" class="megateamcardBox1__link">
+                                    <i class="fa-brands fa-laravel"></i>
+                                </a>
+                            </li>
+                            <li class="megateamcardBox1-item">
+                                <a href="#" class="megateamcardBox1__link">
+                                    <i class="fa-brands fa-node"></i>
+                                </a>
+                            </li>
+                            <li class="megateamcardBox1-item">
+                                <a href="#" class="megateamcardBox1__link">
+                                    <i class="fa-brands fa-docker"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <section class="saying saying--td">
+            <img src="assets/images/saying-icn.png" alt="" class="saying__icn">
+            <div class="container">
+                <div class="sayingBox">
+                    <h3 class="saying__h3">يقولون عنا</h3>
+                    <p class="sayingBox__p">
+                        عملاء قاموا بمشاركة ارائهم وتجاربهم
+                        مع ميغا ميديا
+                    </p>
+                    <img src="assets/images/gradient-bg.png" alt="" class="sayingBox_img">
+                </div>
+                <div class="sayingSl swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="sayingSlide">
+                                <i class="fa-solid fa-quote-left qot"></i>
+                                <p class="sayingSlide__p">
+                                    كانت تجربة تصميم الموقع معهم ممتازة! كانوا يسمعون بعناية لاحتياجاتنا وأفكارنا،
+                                    وقدموا لنا تصميمًا مبتكرًا وجذابًا يعكس هوية عملنا بشكل رائع.
+                                </p>
+                                <div class="sayingSlideRow">
+                                    <img src="assets/images/team/t1.jpg" alt="" class="sayingSlideRow__img">
+                                    <div class="sayingSlideRow-content">
+                                        <h3 class="sayingSlideRow__h">د. محمد الناجي الخطيب</h3>
+                                        <p class="sayingSlideRow-content-p">شركة عاديات للنقل</p>
+                                        <ul class="sayingSlideList">
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sayingSlide">
+                                <i class="fa-solid fa-quote-left qot"></i>
+                                <p class="sayingSlide__p">
+                                    كانت تجربة تصميم الموقع معهم ممتازة! كانوا يسمعون بعناية لاحتياجاتنا وأفكارنا،
+                                    وقدموا لنا تصميمًا مبتكرًا وجذابًا يعكس هوية عملنا بشكل رائع.
+                                </p>
+                                <div class="sayingSlideRow">
+                                    <img src="assets/images/team/t2.jpg" alt="" class="sayingSlideRow__img">
+                                    <div class="sayingSlideRow-content">
+                                        <h3 class="sayingSlideRow__h">د. محمد الناجي الخطيب</h3>
+                                        <p class="sayingSlideRow-content-p">شركة عاديات للنقل</p>
+                                        <div class="sayingSlideList">
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star"></i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sayingSlide">
+                                <i class="fa-solid fa-quote-left qot"></i>
+                                <p class="sayingSlide__p">
+                                    كانت تجربة تصميم الموقع معهم ممتازة! كانوا يسمعون بعناية لاحتياجاتنا وأفكارنا،
+                                    وقدموا لنا تصميمًا مبتكرًا وجذابًا يعكس هوية عملنا بشكل رائع.
+                                </p>
+                                <div class="sayingSlideRow">
+                                    <img src="assets/images/team/t3.jpg" alt="" class="sayingSlideRow__img">
+                                    <div class="sayingSlideRow-content">
+                                        <h3 class="sayingSlideRow__h">د. محمد الناجي الخطيب</h3>
+                                        <p class="sayingSlideRow-content-p">شركة عاديات للنقل</p>
+                                        <div class="sayingSlideList">
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star"></i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sayingSlide">
+                                <i class="fa-solid fa-quote-left qot"></i>
+                                <p class="sayingSlide__p">
+                                    كانت تجربة تصميم الموقع معهم ممتازة! كانوا يسمعون بعناية لاحتياجاتنا وأفكارنا،
+                                    وقدموا لنا تصميمًا مبتكرًا وجذابًا يعكس هوية عملنا بشكل رائع.
+                                </p>
+                                <div class="sayingSlideRow">
+                                    <img src="assets/images/team/t1.jpg" alt="" class="sayingSlideRow__img">
+                                    <div class="sayingSlideRow-content">
+                                        <h3 class="sayingSlideRow__h">د. محمد الناجي الخطيب</h3>
+                                        <p class="sayingSlideRow-content-p">شركة عاديات للنقل</p>
+                                        <div class="sayingSlideList">
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star"></i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sayingSlide">
+                                <i class="fa-solid fa-quote-left qot"></i>
+                                <p class="sayingSlide__p">
+                                    كانت تجربة تصميم الموقع معهم ممتازة! كانوا يسمعون بعناية لاحتياجاتنا وأفكارنا،
+                                    وقدموا لنا تصميمًا مبتكرًا وجذابًا يعكس هوية عملنا بشكل رائع.
+                                </p>
+                                <div class="sayingSlideRow">
+                                    <img src="assets/images/team/t1.jpg" alt="" class="sayingSlideRow__img">
+                                    <div class="sayingSlideRow-content">
+                                        <h3 class="sayingSlideRow__h">د. محمد الناجي الخطيب</h3>
+                                        <p class="sayingSlideRow-content-p">شركة عاديات للنقل</p>
+                                        <div class="sayingSlideList">
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star"></i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sayingSlide">
+                                <i class="fa-solid fa-quote-left qot"></i>
+                                <p class="sayingSlide__p">
+                                    كانت تجربة تصميم الموقع معهم ممتازة! كانوا يسمعون بعناية لاحتياجاتنا وأفكارنا،
+                                    وقدموا لنا تصميمًا مبتكرًا وجذابًا يعكس هوية عملنا بشكل رائع.
+                                </p>
+                                <div class="sayingSlideRow">
+                                    <img src="assets/images/team/t2.jpg" alt="" class="sayingSlideRow__img">
+                                    <div class="sayingSlideRow-content">
+                                        <h3 class="sayingSlideRow__h">د. محمد الناجي الخطيب</h3>
+                                        <p class="sayingSlideRow-content-p">شركة عاديات للنقل</p>
+                                        <div class="sayingSlideList">
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star"></i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sayingSlide">
+                                <i class="fa-solid fa-quote-left qot"></i>
+                                <p class="sayingSlide__p">
+                                    كانت تجربة تصميم الموقع معهم ممتازة! كانوا يسمعون بعناية لاحتياجاتنا وأفكارنا،
+                                    وقدموا لنا تصميمًا مبتكرًا وجذابًا يعكس هوية عملنا بشكل رائع.
+                                </p>
+                                <div class="sayingSlideRow">
+                                    <img src="assets/images/team/t3.jpg" alt="" class="sayingSlideRow__img">
+                                    <div class="sayingSlideRow-content">
+                                        <h3 class="sayingSlideRow__h">د. محمد الناجي الخطيب</h3>
+                                        <p class="sayingSlideRow-content-p">شركة عاديات للنقل</p>
+                                        <div class="sayingSlideList">
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star"></i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sayingSlide">
+                                <i class="fa-solid fa-quote-left qot"></i>
+                                <p class="sayingSlide__p">
+                                    كانت تجربة تصميم الموقع معهم ممتازة! كانوا يسمعون بعناية لاحتياجاتنا وأفكارنا،
+                                    وقدموا لنا تصميمًا مبتكرًا وجذابًا يعكس هوية عملنا بشكل رائع.
+                                </p>
+                                <div class="sayingSlideRow">
+                                    <img src="assets/images/team/t1.jpg" alt="" class="sayingSlideRow__img">
+                                    <div class="sayingSlideRow-content">
+                                        <h3 class="sayingSlideRow__h">د. محمد الناجي الخطيب</h3>
+                                        <p class="sayingSlideRow-content-p">شركة عاديات للنقل</p>
+                                        <div class="sayingSlideList">
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star active"></i>
+                                            </li>
+                                            <li class="sayingSlideList__item">
+                                                <i class="fa-solid fa-star"></i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev sayingSlArr sayingSlArr1">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="swiper-button-next sayingSlArr sayingSlArr2">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="swiper-pagination sayingSlpagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- saying end -->
+        <section class="newletter">
+            <div class="container">
+                <h2 class="newletter__h">إشترك بالنشرة البريدية </h2>
+                <div class="newletterBox">
+                    <p class="newletterBox__p">
+                        اشتراكك في النشرة البريدية يعني أنك ستحصل على آخر التحديثات والأخبار المتعلقة بخدماتنا ومنتجاتنا
+                        مباشرة في صندوق البريد الإلكتروني الخاص بك.
+                    </p>
+                    <form action="" class="newletterBox-form">
+                        <input type="text" placeholder="بريدك الإلكتروني" class="newletterBox-form-input">
+                        <button type="submit" class="newletterBox__btn">إشترك</button>
+                    </form>
+                    <img src="assets/images/newsletter.png" alt="" class="newletterBox__img">
+                </div>
+            </div>
+        </section>
+        <!-- newletter end -->
+        <footer class="footer">
+            <img src="assets/images/map2.png" alt="" class="footer__bg">
+            <div class="container">
+                <div class="footer_wrpr">
+                    <div class="footerBox1">
+                        <div class="footerBox1-logo-row">
+                            <img src="assets/images/logo-sm.png" alt="" class="footerBox1__img">
+                            <p class="footerBox1__p">
+                                شركة ميغا ميديا هي شركة تكنولوجيا
+                                معلوماتية متخصصة في تطوير وتقديم حلول البرمجيات
+                            </p>
+                        </div>
+                        <div class="footerCrd">
+                            <div class="footerCrdinner">
+                                <img src="assets/images/t5.png" alt="" class="footerCrd__img">
+                                <h2 class="footerCrd__h">مهندس. حمزة الأحمدي</h2>
+                                <div class="footerCrd-row">
+                                    <i class="fa-solid fa-road-circle-check"></i>
+                                    <p class="footerCrd-name">المدير التنفيذي</p>
+                                </div>
+                                <p class="footerCrd__p">
+                                    تتميز شركة ميغا ميديا ​​بالابتكار والإبداع والحلول التقنية الفعالة و فريق عمل
+                                    إحترافي
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footerBox1Row flex-i justify-between">
+                            <img src="assets/images/team.png" alt="" class="footerBox1Row__img">
+                            <a href="#" class="footerBox1Row__link flex-a">المزيد</a>
+                        </div>
+                    </div>
+                    <div class="footerBox2">
+                        <img src="assets/images/border.png" alt="" class="footer_wrpr_bg">
+                        <div class="footerBox2-wrpr">
+                            <div class="footerBox2Col1">
+                                <div class="footerBox2__tab">ميغا ميديا</div>
+                                <ul class="footerBox2List">
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">الرئيسية</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">من نحن</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">خدماتنا</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">المشاريع</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">فريق العمل</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">الوظائف</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">المدونة</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تواصل معنا</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footerBox2Col2">
+                                <img src="assets/images/gradient-bg.png" alt="" class="footerBox2Col2__bg">
+                                <div class="footerBox2__tab">خدماتنا</div>
+                                <ul class="footerBox2List">
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">خدمات الإستضافة</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تصميم المواقع</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطبيقات الهاتف</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطبيقات سطح المكتب</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تصميم الجرافيكس</a>
+                                    </li>
+                                </ul>
+                                <img src="assets/images/ftrimg.png" alt="" class="footerBox2Col2-img">
+                            </div>
+                            <div class="footerBox2Col3">
+                                <div class="footerBox2__tab">المشاريع</div>
+                                <ul class="footerBox2List">
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">المتاجر الإلكترونية</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطوير العقارات</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطبيقات الصيانة</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطبيقات الحجوزات</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">الطلبات والتوصيل</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="footerBox3">
+                        <div class="footerBox3Box1">
+                            <img src="assets/images/man7.png" alt="" class="footerBox3Box1__img">
+                        </div>
+                        <div class="footerBox3Box2">
+                            <h3 class="footerBox3Box2__h3">حول فكرتك الي تطبيق</h3>
+                            <a href="#" class="footerBox3Box2__link flex-a">أطلب</a>
+                            <img src="assets/images/mob1.png" alt="" class="footerBox3Box2__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerBtm">
+                <div class="container">
+                    <div class="footerBtm-wrpr flex-i justify-between">
+                        <ul class="footerBtmList">
+                            <li class="footerBtmList__item">
+                                <a href="#" class="footerBtmList__link">الشروط والاحكام</a>
+                            </li>
+                            <li class="footerBtmList__item">
+                                <a href="#" class="footerBtmList__link">سياسة الخصوصة</a>
+                            </li>
+                            <li class="footerBtmList__item">
+                                <a href="#" class="footerBtmList__link">تواصل معنا</a>
+                            </li>
+                            <li class="footerBtmList__item">
+                                <a href="#" class="footerBtmList__link">مركز المساعدة</a>
+                            </li>
+                        </ul>
+                        <p class="footerBtm-p">جميع الحقوق محفوظة لدي شركة ميغا ميديا @ 2023</p>
+                        <ul class="soclsmlist">
+                            <li class="soclsmlist__item">
+                                <a href="#" class="soclsmlist__link">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="soclsmlist__item">
+                                <a href="#" class="soclsmlist__link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="soclsmlist__item">
+                                <a href="#" class="soclsmlist__link">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="soclsmlist__item">
+                                <a href="#" class="soclsmlist__link">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <div class="btmtotop">
+            <a href="tel:00971563255653" class="btmtotop__link btmtotop__link1 flex-a r-50">
+                <i class="fa-solid fa-message"></i>
+                <div class="btmtotop__link-tab flex-a">Contact us</div>
+            </a>
+            <a href="https://wa.me/00971563255653" class="btmtotop__link btmtotop__link2 flex-a r-50">
+                <i class="fa-brands fa-whatsapp"></i>
+                <div class="btmtotop__link-tab flex-a">Whatsapp</div>
+            </a>
+            <a href="#" class="btmtotop__link btmtotop__link3 flex-a r-50">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/team-details.js"></script>
+</body>
+
+</html>

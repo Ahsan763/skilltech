@@ -1,0 +1,637 @@
+.ltr .hdrList__link::after {
+    right: auto;
+    left: 0;
+}
+.ltr .banList__bg {
+    left: auto;
+    right: -50px;
+}
+.ltr .hdrboxform{
+    right: 0;
+    left: auto;
+}
+.ltr .hdrboxform::after {
+    left: auto;
+    right: 55px;
+}
+.ltr .hdrboxformBox__p {
+    right: auto;
+    left: 15px;
+}
+.ltr .hdrboxSerch__form {
+    left: auto;
+    right: 0;
+}
+.ltr .services{
+    direction: rtl;
+}
+.ltr .servCrd,
+.ltr .services-hdng-row{
+    direction: ltr;
+}
+.ltr .prjIdeaBox2 {
+    margin-right: 0;
+    margin-left: auto;
+}
+.ltr .prjIdBoxCon2 {
+    left: auto;
+    right: -190px;
+}
+.ltr .prjideaCon1__btm-mini {
+    transform: translateX(-13px);
+}
+.ltr .prjideaCon1__btm:hover .prjideaCon1__btm-mini {
+    transform: translateX(0px) rotate(180deg);
+}
+.ltr .prjIdBoxCol1__img {
+    right: auto;
+    left: -120px;
+}
+.ltr .cloudSer-svg1 {
+    left: auto;
+    right: 100%;
+    transform: scaleX(-1);
+}
+.ltr .cloudSerBox1 {
+    padding: 0 0 0 50px;
+}
+.ltr .cloudSerBox1__img {
+    right: auto;
+    left: -40px;
+}
+.ltr .cloudSerBox1__s-svg {
+    left: auto;
+    right: -85px;
+    transform: scaleX(-1);
+}
+.ltr .cloudSerBox1-inner {
+    padding: 40px 40px 110px 340px;
+}
+.ltr .cloudSerBox1-inner__img {
+    right: auto;
+    left: -40px;
+    transform: scaleX(-1);
+}
+.ltr .cloudSerBox1-inner2Svg {
+    right: auto;
+    left: 90px;
+    transform: scaleX(-1);
+}
+.ltr .wevdevlopment__tab {
+    padding: 14px 35px 14px 14px;
+}
+.ltr .webdBox1__img {
+    right: auto;
+    left: -50px;
+}
+.ltr .phonAppTab-img {
+    left: auto;
+    right: 100%;
+    transform: scaleX(-1);
+}
+.ltr .phonAppBox2InnerBox {
+    left: auto;
+    right: 0;
+}
+.ltr .phonAppBox2Inner__img {
+    margin: 0 0 0 40px;
+    transform: scaleX(-1);
+}
+.ltr .phonAppBox2InnerTab-svg{
+    transform: scaleX(-1);
+    left: auto;
+    right: 50%;
+}
+.ltr .phonAppBox1-inner-tab {
+    border-radius: 0 50px 50px 0;
+}
+.ltr .phonAppBox1-inner {
+    transform: translateX(-10px);
+}
+.ltr .phonAppBox1-inner-tab2 {
+    padding-right: 30px;
+    padding-left: 70px;
+}
+.ltr .phonAppBox1-inner-tab3 {
+    padding-right: 30px;
+    padding-left: 110px;
+}
+.ltr .grDesignTab {
+    padding: 14px 35px 14px 14px;
+}
+.ltr .swiper-button-next i,
+.ltr .swiper-button-prev i{
+    transform: scaleX(-1);
+}
+.ltr .aboutBox-box {
+    left: auto;
+    right: -100px;
+}
+.ltr .aboutBox1tab1 {
+    padding-left: 25px;
+    padding-right: 140px;
+    margin-left: 0;
+    margin-right: 90px;
+}
+.ltr .aboutBox1tab2 {
+    padding-left: 25px;
+    padding-right: 80px;
+
+    margin-left: 0;
+    margin-right: 60px;
+}
+.ltr .aboutBox1tab3 {
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.ltr .aboutBox1tab__svg {
+    left: auto;
+    right: -80px;
+    transform: scaleX(-1);
+}
+.ltr .teamBox2Teambtm {
+    right: auto;
+    left: 20px;
+}
+.ltr .teamBox2TeambtmInner__link {
+    transform: translateX(-10px);
+}
+.ltr .sayingSlArr {
+    left: 0;
+    right: auto;
+}
+.ltr .sayingSlArr2{
+    right: auto !important;
+    left: 70px !important;
+}
+.ltr .newsArr1 {
+    right: auto !important;
+    left: calc(50% - 60px) !important;
+}
+.ltr .newsArr2 {
+    left:auto !important;
+    right: calc(50% - 60px) !important;
+}
+.ltr .teamBox2Slide-tab {
+    left: auto;
+    right: 25px;
+}
+.ltr .teamBox2Slide-tab2 {
+    left: auto;
+    right: 25px;
+    padding: 8px 12px 8px 35px;
+}
+.ltr .faqBox2 {
+    transform: translateX(-40px);
+    padding: 35px 50px 70px 120px;
+}
+.ltr .faqBox1::after {
+    left: auto;
+    right: -32px;
+}
+.ltr .newletterBox__img {
+    left: auto;
+    right: 45px;
+}
+.ltr .newletterBox__btn {
+    left: auto;
+    right: 15px;
+}
+.ltr .newletterBox-form-input {
+    padding: 10px 148px 10px 15px;
+}
+.ltr .footer_wrpr_bg {
+    right: auto;
+    left: 4%;
+}
+.ltr .cloudSerBox2Tab {
+    padding: 13px 25px 13px 15px;
+}
+.ltr .banner__icn {
+    left: auto;
+    right: 0;
+    transform: scaleX(-1);
+}
+.ltr .teamBox__img {
+    left: auto;
+    right: -120px;
+}
+.ltr .saying__icn {
+    left: auto;
+    right: 15%;
+}
+.ltr .btmtotop {
+    left: auto;
+    right: 40px;
+}
+.ltr .btmtotop__link-tab {
+    left: auto;
+    right: 58px;
+}
+.ltr .hdrListDropdownAb{
+    left: 0;
+    right: auto;
+}
+.ltr .mobilemenulist__itemrowicn i{
+    transform: scaleX(-1);
+    transition: all 0.2s ease-in-out;
+}
+.ltr .mobilemenulist__itemrowicn.active i{
+    transform: scaleX(-1) rotate(-90deg);
+    transition: all 0.2s ease-in-out;
+}
+@media(max-width:1799px){
+    .ltr .phonAppTab {
+        padding: 10px 25px 10px 10px;
+    }
+    .ltr .banList__bg {
+        left: auto;
+        right: -20px;
+    }
+    .ltr .faqBox2 {
+        padding: 25px 30px 30px 100px;
+        border-radius: 30px;
+    }
+    .ltr .btmtotop {
+        right: 30px;
+    }
+    .ltr .btmtotop__link-tab {
+        right: 50px;
+    }
+   
+}
+@media(max-width:1599px){
+    .ltr .cloudSerBox1__s-svg {
+        left: auto;
+        right: -46px;
+    }
+    .ltr .cloudSerBox1-inner2Svg {
+        left: 45px;
+    }
+    .ltr .phonAppBox2InnerTab-svg {
+        transform: scaleX(-1) scale(0.8);
+    }
+    .ltr .phonAppBox1-inner-tab2 {
+        padding-right: 20px;
+        padding-left: 48px;
+    }
+    .ltr .phonAppBox1-inner-tab3 {
+        padding-right: 20px;
+        padding-left: 70px;
+    }
+    .ltr .grDesignTab {
+        padding: 10px 30px 10px 10px;
+    }
+    .ltr .aboutBox-box {
+        right: -60px;
+    }
+    .ltr .aboutBox1tab1 {
+        padding-left: 15px;
+        padding-right: 90px;
+        margin-left: 0;
+        margin-right: 90px;
+    }
+    .ltr .aboutBox1tab__svg {
+        transform: scaleX(-1) scale(0.85);
+    }
+    .ltr .faqBox1::after {
+        left: auto;
+        right: -22px;
+    }
+    .ltr .btmtotop {
+        right: 20px;
+    }
+}
+@media(max-width:1399px){
+    .ltr .prjIdBoxCon2 {
+        right: -117px;
+    }
+    .ltr .cloudSer-svg1 {
+        top: 28px;
+        right: 96%;
+        transform: scaleX(-1) scale(0.85);
+    }
+    .ltr .cloudSerBox1-inner {
+        padding: 20px 20px 50px 195px;
+    }
+    .ltr .cloudSerBox1-inner2Svg {
+        right: auto;
+        left: 30px;
+    }
+    .ltr .phonAppTab-img {
+        transform: scaleX(-1) scale(0.85);
+        top: 23px;
+        right: 85%;
+    }
+    .ltr .phonAppBox2Inner__img {
+        margin: 0 0 0 20px;
+    }
+    .ltr .cloudSerBox1 {
+        padding: 0 0 0 20px;
+    }
+
+}
+@media(max-width:1199px){
+    .ltr .cloudSer-svg1 {
+        top: 17px;
+        right: 91%;
+        transform: scaleX(-1) scale(0.7);
+    }
+    .ltr .cloudSerBox1 {
+        padding: 0 0 0 10px;
+    }
+    .ltr .cloudSerBox1-inner2Svg {
+        right: auto;
+        left: 17px;
+        top: -9px;
+        transform: scale(0.8) scaleX(-1);
+    }
+    .cloudSerBox1-inner2-box1-h3 {
+        padding-top: 38px;
+    }
+    .ltr .phonAppTab-img {
+        transform: scaleX(-1) scale(0.58);
+        top: 0;
+        right: 57%;
+    }
+    .ltr .phonAppBox1-inner-tab2 {
+        padding-right: 15px;
+        padding-left: 33px;
+    }
+    .ltr .phonAppBox1-inner-tab3 {
+        padding-right: 15px;
+        padding-left: 57px;
+    }
+    .ltr .phonAppBox2InnerTab-svg {
+        transform: scaleX(-1) scale(0.7);
+        right: 32%;
+    }
+    .ltr .newletterBox__img {
+        right: 15px;
+    }
+    .ltr .btmtotop__link-tab {
+        right: 44px;
+    }
+}
+@media(max-width:1023px){
+    .ltr .mobilemenu {
+        right: auto;
+        left: -100%;
+    }
+    .ltr .mobilemenu.active {
+        left: 0%;
+    }
+    .ltr .prjideaCon1__btm-mini {
+        transform: translateX(-7px);
+    }
+    .ltr .prjIdBoxCon2 {
+        right: -200px;
+    }
+    .ltr .cloudSer-svg1 {
+        top: -7px;
+        right: 77%;
+        transform: scaleX(-1) scale(0.45);
+    }
+    .ltr .cloudSerBox1__img {
+        right: auto;
+        left: -14px;
+    }
+    .ltr .cloudSerBox1-inner {
+        padding: 12px 15px 37px 130px;
+        border-radius: 14px;
+    }
+    .ltr .cloudSerBox2Tab {
+        right: 0;
+        left: -380px;
+        bottom: 147px;
+    }
+    .ltr .cloudSerBox2Tab {
+        padding: 9px 22px 8px 10px;
+    }
+    .ltr .webdBox2__btn{
+        left: auto;
+        right: 0;
+    }
+    .ltr .webdBox2__btn {
+        left: auto;
+        right: -46%;
+    }
+    .ltr .phonApp__img {
+        transform: scale(0.56) scaleX(-1);
+        left: 25%;
+    }
+    .ltr .phonAppTab-img {
+        transform: scaleX(-1) scale(0.5);
+        top: -13px;
+        right: 36%;
+    }
+    .ltr .phonAppBox2InnerTab-svg {
+        top: 28%;
+        transform: scaleX(-1) scale(0.6);
+        right: 16%;
+    }
+
+    .ltr .aboutBox1tab1 {
+        padding-left: 15px;
+        padding-right: 25px;
+        margin-left: 0;
+        margin-right: 55px;
+    }
+    .ltr .aboutBox1tab2 {
+        padding-left: 25px;
+        padding-right: 30px;
+        margin-left: 0;
+        margin-right: 28px;
+    }
+    .ltr .aboutBox1tab3 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .ltr .aboutBox1tab__svg {
+        transform: scaleX(-1) scale(0.7);
+    }
+    .ltr .phonAppBox2InnerRow-box {
+        right: auto;
+        left: -95%;
+        bottom: -28%;
+    }
+    .ltr .teamBox__img {
+        right: -50px;
+        width: 40px;
+    }
+    .ltr .teamBox2Slide-tab {
+        right: 13px;
+    }
+    .ltr .teamBox2Slide-tab2 {
+        right: 13px;
+    }
+    .ltr .newsArr2 {
+        left: auto !important;
+        right: calc(50% - 45px) !important;
+    }
+    .ltr .newsArr1 {
+        right: auto !important;
+        left: calc(50% - 45px) !important;
+    }
+    .ltr .sayingSlArr2 {
+        left: 50px !important;
+    }
+    .ltr .faqBox2 {
+        padding: 25px 20px 30px 40px;
+        transform: translateX(-15px);
+    }
+    .ltr .faqBox1::after {
+        right: -11px;
+    }
+    .ltr .btmtotop {
+        right: 15px;
+    }
+}
+@media(max-width:767px){
+    .ltr .prjIdBoxCon2 {
+        right: -50%;
+        bottom: -6px;
+    }
+    .ltr .cloudSer-svg1 {
+        top: 10px;
+        right: 62%;
+        transform: rotate(-90deg) scale(0.3);
+    }
+    .ltr .cloudSerBox1-inner__img {
+        left: -13px;
+    }
+    .ltr .cloudSerBox2Tab {
+        right: 0;
+        left: 0;
+        bottom: auto;
+    }
+    .ltr .webdBox2__btn {
+        left: auto;
+        right: 31%;
+    }
+    .ltr .phonApp__img {
+        transform: scale(0.4) scaleX(-1);
+        left: 18%;
+    }
+    .ltr .phonAppTab-img2 {
+        top: 78%;
+        left: -23px;
+        right: auto;
+        transform: scaleX(-1) scale(1.5) !important;
+    }
+    .ltr .phonAppBox2InnerTab-svg {
+        top: 25%;
+        transform: scaleX(-1) scale(0.5);
+        right: 1%;
+    }
+    .ltr .phonAppBox2InnerRow-box {
+        right: auto;
+        left: 50%;
+        bottom: -21%;
+    }
+    .ltr .phonAppBox2InnerTab-svg {
+        top: 8%;
+        transform: scaleX(1) scale(0.3);
+        right: 11%;
+    }
+    .ltr .teamBox2Teambtm {
+        transform: translateX(88%);
+    }
+    .ltr .faqBox2 {
+        padding:  20px;
+        transform: translateX(0px);
+    }
+    .ltr .cloudSerBox1-inner2Svg {
+        left: 0px;
+    }
+    .ltr .phonAppBox1-inner {
+        transform: translateX(-13px);
+    }
+    .ltr .aboutBox-box {
+        right: -20px;
+    }
+    .ltr .newletterBox__img {
+        right: -5px;
+        width: 120px;
+    }
+
+    .ltr .newletterBox-form-input {
+        padding: 9px 89px 9px 11px;
+    }
+    .ltr .footerBox2Col2-img {
+        left: 217px;
+    }
+    .ltr .hdrboxSerch__form{
+        left: -100px;
+    }
+    .ltr .servBoxSlArr{
+        transform: scaleX(-1) translateY(-50%);
+    }
+}
+@media(max-width:539px){
+    .ltr .footerBox2Col2-img {
+        left: -20px;
+        bottom: -260px;
+    }
+    .ltr .soclsmlist {
+        left: 178px;
+    }
+    .ltr .hdrboxSerch__form {
+        left: -63px;
+    }
+    .ltr .hdrboxform {
+        right: -80px;
+        left: auto;
+    }
+    .ltr .hdrboxform::after {
+        right: 110px;
+    }
+    .ltr .prjIdBoxCon2 {
+        right: -4%;
+    }
+    .ltr .cloudSer-svg12-a{
+        transform: scaleX(-1);
+        left: 28%;
+    }
+    .ltr .cloudSerBox1__s-svg-a1 {
+        top: 8px;
+        left: auto;
+        right: -28px;
+        transform: scaleX(-1) !important;
+    }
+    .ltr .cloudSerBox1-inner2Svg {
+        right: auto;
+        left: 72px;
+        top: -9px;
+        transform: scale(0.8) scaleX(1);
+    }
+    .ltr .webdBox2__btn {
+        left: auto;
+        right: 22%;
+    }
+    .ltr .phonApp__img {
+        transform: scale(0.4) scaleX(-1);
+        left: 0%;
+    }
+
+    .ltr .phonAppBox2InnerTab-svg2a{
+        transform: scaleX(-1) scale(0.8);
+        left: 46%;
+        top: 110px;
+    }
+    .ltr .teamBox2Teambtm {
+        transform: translateX(33%);
+    }
+    .ltr .faqBox2 {
+        padding: 14px;
+    }
+    .ltr .btmtotop {
+        bottom: 10px;
+        left: auto;
+        right: 10px;
+    }
+    .ltr .newletterBox__btn{
+        right: 7px;
+    }
+ 
+}

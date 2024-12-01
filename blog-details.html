@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <title>Blog Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/ahsan.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/jobs.css" rel="stylesheet">
+    <link href="assets/css/blog.css" rel="stylesheet">
+    <link href="assets/css/media-queries.css" rel="stylesheet">
+    <link href="assets/css/ltr.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="container-fluid">
+                <div class="header-wrpr">
+                    <div class="navbtn">
+                        <img src="assets/images/nav-btn-icn.svg" alt="" class="navbtnIcn__img">
+                    </div>
+                    <ul class="hdrList">
+                        <li class="hdrList__item">
+                            <a href="/" class="hdrList__link">الرئيسية</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="about-us.html" class="hdrList__link">من نحن</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="team.html" class="hdrList__link">فريق العمل</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <div class="hdrListDropdown">
+                                <div class="hdrListDropdown-row flex-i">
+                                    <a href="services.html" class="hdrList__link">خدماتنا</a>
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </div>
+                                <div class="hdrListDropdownAb">
+                                    <a href="index.html#cloudSer" class="hdrListDropdownAb__link">خدماتنا السحابية</a>
+                                    <a href="mobile-services.html" class="hdrListDropdownAb__link"> تطبيقات الهاتف </a>
+                                    <a href="index.html#grDesign" class="hdrListDropdownAb__link"> تصميم الجرافيكس </a>
+                                    <a href="web-services.html" class="hdrListDropdownAb__link"> تطوير المواقع
+                                        الإلكترونية </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="services.html" class="hdrList__link">خدماتنا</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="projects.html" class="hdrList__link">مشاريعنا</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="jobs.html" class="hdrList__link">الوظائف</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="blog.html" class="hdrList__link active">المدونة</a>
+                        </li>
+                        <li class="hdrList__item">
+                            <a href="contact-us.html" class="hdrList__link">إتصل بنا</a>
+                        </li>
+                    </ul>
+                    <div class="hdrbox">
+                        <div class="hdrboxSerchBtn-dropdown">
+                            <div class="hdrboxSerchBtn flex-a">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <form action="" class="hdrboxSerch__form">
+                                <input type="text" name="search" id="search" placeholder="كيف نساعدك…"
+                                    class="hdrboxSerch__input">
+                                <button type="submit" class="hdrboxSerch__btn">
+                                    <span class="sp1">إستكشف</span>
+                                    <span class="sp2">الآن</span>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="langbox">
+                            <div class="langboxmini ar">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                <p class="langboxmini__p">Ar</p>
+                            </div>
+                            <div class="langboxmini en active">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                <p class="langboxmini__p">En</p>
+                            </div>
+                        </div>
+                        <div class="hdrboxformDrp">
+                            <div class="hdrboxformbtn">
+                                أحصل على إستشارة
+                            </div>
+                            <form action="" class="hdrboxform">
+                                <h2 class="hdrboxform__h">احصل على إجابات مجانية</h2>
+                                <div class="hdrboxformBox">
+                                    <input type="text" class="hdrboxform__input inputF" placeholder="الإسم كامل">
+                                    <p class="hdrboxformBox__p">
+                                        <i class="fa-solid fa-check"></i>
+                                        الإسم كامل
+                                    </p>
+                                </div>
+                                <div class="hdrboxformBox">
+                                    <input type="text" class="hdrboxform__input inputF" placeholder="البريد الإلكتروني">
+                                    <p class="hdrboxformBox__p">
+                                        <i class="fa-solid fa-check"></i>
+                                        البريد الإلكتروني
+                                    </p>
+                                </div>
+                                <div class="hdrboxformBox">
+                                    <input type="text" class="hdrboxform__input inputF" placeholder="الهاتف">
+                                    <p class="hdrboxformBox__p">
+                                        <i class="fa-solid fa-check"></i>
+                                        الهاتف
+                                    </p>
+                                </div>
+                                <div class="hdrboxformBox">
+                                    <textarea type="text" class="hdrboxform__input hdrboxform__input-textarea inputF"
+                                        placeholder="موجز الرسالة"></textarea>
+                                    <p class="hdrboxformBox__p">
+                                        <i class="fa-solid fa-check"></i>
+                                        موجز الرسالة
+                                    </p>
+                                </div>
+                                <button type="submit" class="hdrboxform__btn">
+                                    <span class="hdrboxform__btnsp1 flex-i">
+                                        <i class="fa-solid fa-check"></i>
+                                        إرسال
+                                    </span>
+                                    <i class="fa-solid fa-spinner"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <a href="/" class="logo">
+                            <img src="assets/images/logo.png" alt="" class="logo__img">
+                        </a>
+                    </div>
+                    <div class="mobilemenu">
+                        <div class="mobilemenuhdr flex-i justify-between">
+                            <a href="/" class="mobilemenulogo flex-a">
+                                <img src="assets/images/logo.png" class="mobilemenulogo__img" />
+                            </a>
+                            <div class="mobilemenuClose flex-a r-50">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                        <ul class="mobilemenulist">
+                            <li class="mobilemenulist__item">
+                                <a href="/" class="mobilemenulist__link">الرئيسية</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="about-us.html" class="mobilemenulist__link">من نحن</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <div class="mobilemenulist__itemrow flex-i">
+                                    <a href="services.html" class="mobilemenulist__link">خدماتنا</a>
+                                    <div class="mobilemenulist__itemrowicn flex-a">
+                                        <i class="fa-solid fa-caret-left"></i>
+                                    </div>
+                                </div>
+                                <div class="mobilemenulistDropDown">
+                                    <a href="index.html#cloudSer" class="mobilemenulistDropDown__link">خدماتنا
+                                        السحابية</a>
+                                    <a href="mobile-services.html" class="mobilemenulistDropDown__link"> تطبيقات الهاتف
+                                    </a>
+                                    <a href="index.html#grDesign" class="mobilemenulistDropDown__link"> تصميم الجرافيكس
+                                    </a>
+                                    <a href="web-services.html" class="mobilemenulistDropDown__link"> تطوير المواقع
+                                        الإلكترونية </a>
+                                </div>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="projects.html" class="mobilemenulist__link">المشاريع</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="team.html" class="mobilemenulist__link">فريق العمل</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="jobs.html" class="mobilemenulist__link">الوظائف</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="blog.html" class="mobilemenulist__link active">المدونة</a>
+                            </li>
+                            <li class="mobilemenulist__item">
+                                <a href="contact-us.html" class="mobilemenulist__link">تواصل معنا</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+        <section class="blogbner">
+            <img src="assets/images/icn5.png" alt="" class="blogbner__icn">
+            <div class="container-fluid">
+                <div class="blogbner-wrpr flex-i justify-between">
+                    <div class="blogbnerBox1">
+                        <h3 class="blogbnerBox1__h3">المدونة</h3>
+                        <p class="blogbnerBox1__p">
+                            احدث اخبار التكنولوجيا العالمية, الذكاء الإصطناعي, صناعة الويب, المحتوي الرقمي…
+                        </p>
+                    </div>
+                    <div class="blogbnerBox2 flex-a">
+                        <img src="assets/images/blog-banner-img.png" alt="" class="blogbnerBox2__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blogbner end -->
+        <section class="blogsec">
+            <div class="container-fluid">
+                <div class="blogsecInner">
+                    <div class="blogsecInner-wrpr">
+                        <div class="blogsecInnerBox1-blogdet">
+                            <div class="blogsecInnerBox1-bgdet-tag flex-i justify-between">
+                                <div class="blogsecInnerBox1-bgdet-tag-box1">
+                                    <div class="blsbtb">
+                                        <div class="blsbtbMini flex-a">
+                                            <i class="fa-solid fa-palette"></i>
+                                        </div>
+                                        <a href="#" class="blsbtb__h3">تطبيقات الويب</a>
+                                    </div>
+                                    <div class="blsbtb2 flex-a">
+                                        <i class="fa-solid fa-clock"></i>
+                                        منذ يومين
+                                    </div>
+                                </div>
+                                <div class="blogsecInnerBox1-bgdet-tag-box2">
+                                    <div class="bls2btb1 flex-i">
+                                        <i class="fa-solid fa-eye"></i>
+                                        <span>12K</span>
+                                    </div>
+                                    <div class="bls2btb2">
+                                        <i class="fa-solid fa-comment-dots"></i>
+                                        <span>100 تعليق</span>
+                                    </div>
+                                    <input type="checkbox" id="g1" class="bls2btb2__input">
+                                    <label for="g1" class="bls2btb2__lbl flex-a">
+                                        <i class="fa-solid fa-bookmark"></i>
+                                        <i class="fa-regular fa-bookmark"></i>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="blogsecInnerBox1-blogdet2">
+                                <div class="blogsecInnerBox1-bdet">
+                                    <img src="assets/images/blog/13.jpg" alt="" class="blogdetimg">
+                                </div>
+                                <div class="blogsecInnerBox1-bdet-pf">
+                                    <div class="blogsecInnerBox1-bdet-pf-img-holdr">
+                                        <img src="assets/images/blog/3.png" alt="" class="blogsecInnerBox1-bdet-pf-img">
+                                    </div>
+                                    <h2 class="blogsecInnerBox1-bdet-pf-h2">احمد سلطان</h2>
+                                    <h6 class="blogsecInnerBox1-bdet-pf-h6">منذ يومين </h6>
+                                </div>
+                                <h2 class="blogsecInnerBox1__blg-det-h">
+                                    قد يمكن تعريف المحتوى بصورته الأعم على أنه تلك الرسالة التي يمكن إيصالها للمتلقي
+                                    بأيّ أسلوب عن طريق…
+                                </h2>
+                                <article class="blogsecInnerBox1-blg-det-p">
+                                    المتتبع لتاريخ المحتوى الرقمي، سيلاحظ عدم وجود تعريف متفق عليه للآن حول طبيعة
+                                    المحتوى، فيدعي البعض أن أول نوع من المحتوى هو الرسوم الجدارية التي أنشأها الإنسان
+                                    الحجري الأول على جدران الكهوف يعود لآلاف السنين قبل الميلاد، وأقدمها هو تلك الرسوم
+                                    المنقوشة على جدران كهف ألتاميرا في شمال إسبانيا، والتي رسمت بين فترة 53,000 إلى
+                                    11,000 قبل الميلاد بحسب منظمة اليونيسكو. تلي هذه الكهوف كهوف تاسيلي الواقعة بين
+                                    الحدود الليبية والجزائرية برسومها المدهشة والمميزة. وتاريخ كل من المجموعتين يرجع
+                                    لأكثر من 10 آلاف سنة.
+                                    قد يمكن تعريف المحتوى بصورته الأعم على أنه تلك الرسالة التي يمكن إيصالها للمتلقي
+                                    بأيّ أسلوب عن طريق مجموعة متنوعة من الكلمات، والدلالات، والأفكار، والرموز.
+                                    لم يشتهر المحتوى بصورته الحالية إلا بعد أن أطلق بيل غيتس، مؤسس شركة مايكروسوفت
+                                    عبارته الشهيرة “المحتوى هو الملك”. كان ذلك في مقال كتبه في العام 1996 ونشر على موقع
+                                    الشركة آنذاك، ليتنبّأ فيه بأنّ المحتوى الرقمي المخصص للإنترنت سينافس ذلك الصادر عن
+                                    قنوات ومحطات التلفزة من حيث الإيرادات، وهو ما حدث لاحقًا بالفعل!
+                                    وهي الشكل الأساسيّ المتعارف عليه من المحتوى، ومنها:
+                                    1. المدوّنات: وظهرت لأول مرة في تسعينيات القرن العشرين كشكل من أشكال الشبكات
+                                    الاجتماعية وفضاء للتعبير الحر، ثم شهدت تطوّراً وإقبالًا هائًلا من المجتمع الإلكتروني
+                                    خلال الألفينات من القرن ذاته. بدأت المدوّنات في معظمها كمنشورات شخصية يمكن للفرد
+                                    فيها أن يعبّر عن آرائه وأفكاره. بعد ذلك أضحت المدوّنات وسيلة تستخدمها الشركات لجلب
+                                    الزيارات والزائرين لموقعها الإلكتروني، وبالتالي، زيادة أرباحها بطرق متعددة
+                                    كالإعلانات أو زيادة عدد العملاء في حالة مواقع التجارة الإلكترونية.
+
+                                    2. المقالات: وتتوافر على أكثر من صورة كالمقالات التي تقدّم معلومات حول موضوع معيّن
+                                    (Informative Articles)، والمقالات المتعلّقة بتعليم القارئ كيفية استخدام أو صناعة
+                                    الأشياء مثلًا (How’s To Articles)، بجانب المقالات والتقارير الصحفية. ويتراوح طول
+                                    المقالات بين تلك القصيرة أو الطويلة الأكثر تفصيلًا والمتخصصة في مجالات أو مواضيع
+                                    معينة.
+
+                                    3. وصف المنتجات: وهو المحتوى الذي يعتمد سرد مواصفات المنتجات المعروضة على مواقع
+                                    التجارة الإلكترونية، وأسعارها، وتقييم الزبائن لها، ومراجعاتهم وغيرها.
+
+                                </article>
+                                <div class="blid2tag">
+                                    <div class="blid2tagcol1">
+                                        <div class="blid2tagBox1">
+                                            المحتوي الرقمي
+                                        </div>
+                                        <div class="blid2tagBox1">
+                                            سوشيال ميديا
+                                        </div>
+                                        <div class="blid2tagBox1">
+                                            تسويق
+                                        </div>
+                                    </div>
+                                    <div class="blid2tagcol2 flex-i">
+                                        <div class="blid2tagcol2Box1">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            مشاركة
+
+                                            <div class="blid2tagcol2Box1-sm">
+                                                <ul class="soclsmlist">
+                                                    <li class="soclsmlist__item">
+                                                        <a href="#" class="soclsmlist__link">
+                                                            <i class="fa-brands fa-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="soclsmlist__item">
+                                                        <a href="#" class="soclsmlist__link">
+                                                            <i class="fa-brands fa-instagram"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="soclsmlist__item">
+                                                        <a href="#" class="soclsmlist__link">
+                                                            <i class="fa-brands fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="soclsmlist__item">
+                                                        <a href="#" class="soclsmlist__link">
+                                                            <i class="fa-brands fa-facebook-f"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="blid2tagcol2Link flex-a">
+                                            <div class="blid2tagcol2Link1 flex-i">
+                                                <i class="fa-solid fa-clipboard"></i>
+                                                نسخ الرابط
+                                            </div>
+                                            <div class="blid2tagcol2Link2 flex-i">
+                                                <i class="fa-solid fa-check"></i>
+                                                تم النسخ
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blogsecblgdet">
+                                <div class="blogsecblgdet-tag">
+                                    <div class="blogsecblgdet-tag-btn flex-a">
+                                        <i class="fa-solid fa-comment-dots"></i>
+                                        100 تعليق
+                                    </div>
+                                    <div class="blogsecblgdet-tagbox2">
+                                        <input type="text" class="blogsecblgdet-tagbox2__input" placeholder="أضف تعليق">
+                                        <button class="blogsecblgdet-tagbox2-btn flex-a">نشر</button>
+                                    </div>
+                                </div>
+                                <h2 class="blogsecblgdet__h2">جميع التعليقات</h2>
+                            </div>
+                            <div class="cmntbox">
+                                <div class="cmntboxMini">
+                                    <i class="fa-solid fa-road-circle-check"></i>
+                                </div>
+                                <div class="cmntboxContent">
+                                    <div class="cmntboxContent-row">
+                                        <h1 class="cmntboxContent-row__h2">انت</h1>
+                                        <div class="cmntboxContent-row-mini flex-a r-50"></div>
+                                        <span class="cmntboxContent-row-span">اليوم 10:30am</span>
+                                    </div>
+                                    <p class="cmntboxContent-p">
+                                        وهو المحتوى الذي يعتمد سرد مواصفات المنتجات المعروضة على مواقع التجارة
+                                        الإلكترونية، وأسعارها، وتقييم الزبائن لها، ومراجعاتهم وغيرها.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cmntbox">
+                                <div class="cmntboxMini">
+                                    <i class="fa-solid fa-road-circle-check"></i>
+                                </div>
+                                <div class="cmntboxContent">
+                                    <div class="cmntboxContent-row">
+                                        <h1 class="cmntboxContent-row__h2">سامر احمد</h1>
+                                        <div class="cmntboxContent-row-mini flex-a r-50"></div>
+                                        <span class="cmntboxContent-row-span">اليوم 10:30am</span>
+                                    </div>
+                                    <p class="cmntboxContent-p">
+                                        وهو المحتوى الذي يعتمد سرد مواصفات المنتجات المعروضة على مواقع التجارة
+                                        الإلكترونية، وأسعارها، وتقييم الزبائن لها، ومراجعاتهم وغيرها.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cmntbox">
+                                <div class="cmntboxMini">
+                                    <i class="fa-solid fa-road-circle-check"></i>
+                                </div>
+                                <div class="cmntboxContent">
+                                    <div class="cmntboxContent-row">
+                                        <h1 class="cmntboxContent-row__h2">ابراهيم الخليل</h1>
+                                        <div class="cmntboxContent-row-mini flex-a r-50"></div>
+                                        <span class="cmntboxContent-row-span">اليوم 10:30am</span>
+                                    </div>
+                                    <p class="cmntboxContent-p">
+                                        وهو المحتوى الذي يعتمد سرد مواصفات المنتجات المعروضة على مواقع التجارة
+                                        الإلكترونية، وأسعارها، وتقييم الزبائن لها، ومراجعاتهم وغيرها.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blogsecInnerBox2">
+                            <div class="blogsecInnerBox2-hdr">
+                                مواضيع مشهورة
+                            </div>
+                            <div class="blogsecInnerBox2-tags-wrpr">
+                                <a href="blog-cate.html" class="blogsecInnerBox2-tag flex-a">الذكاء الإصطناعي</a>
+                                <a href="blog-cate.html" class="blogsecInnerBox2-tag flex-a">بيتكوين</a>
+                                <a href="blog-cate.html" class="blogsecInnerBox2-tag flex-a">فلاتر</a>
+                                <a href="blog-cate.html" class="blogsecInnerBox2-tag flex-a">DevOps</a>
+                                <a href="blog-cate.html" class="blogsecInnerBox2-tag flex-a">Sass App</a>
+                                <a href="blog-cate.html" class="blogsecInnerBox2-tag flex-a">ChatGPT </a>
+                            </div>
+                            <div class="blogsecInnerBox2-row">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <h6 class="blogsecInnerBox2-row-h6">التصنيفات</h6>
+                            </div>
+                            <div class="blogsecInnerBox2-row-line"></div>
+                            <a href="blog-cate.html" class="blogsecInnerBox2Cate">
+                                <span>
+                                    تطبيقات الويب
+                                </span>
+                                <div class="blogsecInnerBox2CateCount flex-a">120</div>
+                            </a>
+                            <a href="blog-cate.html" class="blogsecInnerBox2Cate">
+                                <span>
+                                    تطبيقات الهاتف
+                                </span>
+                                <div class="blogsecInnerBox2CateCount flex-a">120</div>
+                            </a>
+                            <a href="blog-cate.html" class="blogsecInnerBox2Cate">
+                                <span>
+                                    الذكاء الإصطناعي
+                                </span>
+                                <div class="blogsecInnerBox2CateCount flex-a">120</div>
+                            </a>
+                            <a href="blog-cate.html" class="blogsecInnerBox2Cate">
+                                <span>
+                                    تصميم تجربة المستخدم UX
+                                </span>
+                                <div class="blogsecInnerBox2CateCount flex-a">16</div>
+                            </a>
+                            <a href="blog-cate.html" class="blogsecInnerBox2Cate">
+                                <span>
+                                    تصميم واجهة المستخدم UI
+                                </span>
+                                <div class="blogsecInnerBox2CateCount flex-a">13</div>
+                            </a>
+                            <a href="blog-cate.html" class="blogsecInnerBox2Cate">
+                                <span>
+                                    الخوادم
+                                </span>
+                                <div class="blogsecInnerBox2CateCount flex-a">100</div>
+                            </a>
+                            <a href="blog-cate.html" class="blogsecInnerBox2Cate">
+                                <span>
+                                    قواعد البيانات
+                                </span>
+                                <div class="blogsecInnerBox2CateCount flex-a">120</div>
+                            </a>
+                            <a href="blog-cate.html" class="blogsecInnerBox2Cate">
+                                <span>
+                                    لينكس
+                                </span>
+                                <div class="blogsecInnerBox2CateCount flex-a">70</div>
+                            </a>
+                            <a href="blog-cate.html" class="blogsecInnerBox2Cate">
+                                <span>
+                                    الشبكات الإجتماعية
+                                </span>
+                                <div class="blogsecInnerBox2CateCount flex-a">20</div>
+                            </a>
+                            <a href="blog-cate.html" class="blogsecInnerBox2Cate">
+                                <span>
+                                    تهيئة محركات البحث SEO
+                                </span>
+                                <div class="blogsecInnerBox2CateCount flex-a">60</div>
+                            </a>
+                            <div class="blogsecInnerBox2-hdr blogsecInnerBox2-hdr2">
+                                احدث المقالات
+                            </div>
+                            <div class="smCrd">
+                                <div class="smCrdbox1">
+                                    <img src="assets/images/blog/6.jpg" alt="" class="smCrdbox1__img">
+                                </div>
+                                <div class="smCrdbox2">
+                                    <a href="blog-details.html" class="smCrdbox2__link">
+                                        دليلك لبناء موقع إلكتروني متكامل
+                                        في 5 خطوات
+                                    </a>
+                                    <div class="smCrdbox2_ftr flex-i justify-between">
+                                        <div class="smCrdbox2_ftrBox1">
+                                            <img src="assets/images/team/t1.jpg" alt="" class="smCrdbox2_ftrBox1-img">
+                                            <div class="smCrdbox2_ftrBox1-content">
+                                                <h2 class="smCrdbox2_ftrBox1-conten-h2">امجد احمد</h2>
+                                                <p class="smCrdbox2_ftrBox1-conten-p">محرر</p>
+                                            </div>
+                                        </div>
+                                        <div class="smCrdbox2_ftr-tag flex-a">
+                                            <i class="fa-solid fa-clock"></i>
+                                            منذ شهرين
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="smCrd">
+                                <div class="smCrdbox1">
+                                    <img src="assets/images/blog/7.jpg" alt="" class="smCrdbox1__img">
+                                </div>
+                                <div class="smCrdbox2">
+                                    <a href="blog-details.html" class="smCrdbox2__link">
+                                        تصميم خلفية فضاء ذو اسلوب حديث مع اضواء لو…
+                                    </a>
+                                    <div class="smCrdbox2_ftr flex-i justify-between">
+                                        <div class="smCrdbox2_ftrBox1">
+                                            <img src="assets/images/team/t1.jpg" alt="" class="smCrdbox2_ftrBox1-img">
+                                            <div class="smCrdbox2_ftrBox1-content">
+                                                <h2 class="smCrdbox2_ftrBox1-conten-h2">امجد احمد</h2>
+                                                <p class="smCrdbox2_ftrBox1-conten-p">محرر</p>
+                                            </div>
+                                        </div>
+                                        <div class="smCrdbox2_ftr-tag flex-a">
+                                            <i class="fa-solid fa-clock"></i>
+                                            منذ شهرين
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="smCrd">
+                                <div class="smCrdbox1">
+                                    <img src="assets/images/blog/8.jpg" alt="" class="smCrdbox1__img">
+                                </div>
+                                <div class="smCrdbox2">
+                                    <a href="blog-details.html" class="smCrdbox2__link">
+                                        تصميم خلفية فضاء ذو اسلوب حديث مع اضواء لو…
+                                    </a>
+                                    <div class="smCrdbox2_ftr flex-i justify-between">
+                                        <div class="smCrdbox2_ftrBox1">
+                                            <img src="assets/images/team/t1.jpg" alt="" class="smCrdbox2_ftrBox1-img">
+                                            <div class="smCrdbox2_ftrBox1-content">
+                                                <h2 class="smCrdbox2_ftrBox1-conten-h2">امجد احمد</h2>
+                                                <p class="smCrdbox2_ftrBox1-conten-p">محرر</p>
+                                            </div>
+                                        </div>
+                                        <div class="smCrdbox2_ftr-tag flex-a">
+                                            <i class="fa-solid fa-clock"></i>
+                                            منذ شهرين
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="smCrd smCrdShimmer">
+                                <div class="smCrdbox1">
+                                </div>
+                                <div class="smCrdbox2">
+                                    <div class="smCrdbox2__link"></div>
+                                    <div class="smCrdbox2__link smCrdbox2__link2"></div>
+                                    <div class="smCrdbox2_ftr flex-i justify-between">
+                                        <div class="smCrdbox2_ftrBox1">
+                                            <div class="smCrdbox2_ftrBox1-img"></div>
+                                            <div class="smCrdbox2_ftrBox1-content">
+                                                <h2 class="smCrdbox2_ftrBox1-conten-h2"></h2>
+                                                <p class="smCrdbox2_ftrBox1-conten-p"></p>
+                                            </div>
+                                        </div>
+                                        <div class="smCrdbox2_ftr-tag flex-a"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blogsec end  -->
+        <section class="blogrel">
+            <div class="container-fluid">
+                <div class="blogrel__tag flex-a">
+                    <i class="fa-sharp fa-solid fa-marker"></i>
+                    <span>إخترنا لك</span>
+                </div>
+                <div class="blogrelsl swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="blogrelCrd">
+                                <input type="checkbox" id="a1" class="blogrelCrd__input">
+                                <label for="a1" class="blogrelCrd__label flex-a">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                    <i class="fa-regular fa-bookmark"></i>
+                                </label>
+                                <div class="blogrelCrdHdr">
+                                    <img src="assets/images/blog/11.jpg" alt="" class="blogrelCrdHdr__img">
+                                </div>
+                                <div class="blogrelCrd-body">
+                                    <a href="blog-details.html" class="blogrelCrd-body__h3">
+                                        قد يمكن تعريف المحتوى بصورته الأعم على أنه تلك الرسالة التي يمكن إيصالها
+                                        للمتلقي…
+                                    </a>
+                                    <div class="blogrelCrd-row flex-i justify-between">
+                                        <div class="blogrelCrd-rowBox1">
+                                            <div class="blogrelCrd-rowBox1-mini flex-a">
+                                                <i class="fa-solid fa-palette"></i>
+                                            </div>
+                                            <a href="job-details.html" class="blogrelCrd-rowBox1-link">تطبيقات الويب</a>
+                                        </div>
+                                        <div class="blogrelCrd-row-tag flex-a">
+                                            <i class="fa-solid fa-comment-dots"></i>
+                                            100 تعليق
+                                        </div>
+                                    </div>
+                                    <div class="blogrelCrdFtr">
+                                        <div class="blogrelCrdFtrBox1">
+                                            <img src="assets/images/team/t1.jpg" alt="" class="blogrelCrdFtrBox1__img">
+                                            <div class="blogrelCrdFtrBox1-contnt">
+                                                <h2 class="blogrelCrdFtrBox1-h2">امجد احمد</h2>
+                                                <p class="blogrelCrdFtrBox1-p">محرر</p>
+                                            </div>
+                                        </div>
+                                        <div class="blogrelCrdFtr-tag flex-a">
+                                            <i class="fa-solid fa-clock"></i>
+                                            2023-5-14
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blogrelCrd">
+                                <input type="checkbox" id="a2" class="blogrelCrd__input">
+                                <label for="a2" class="blogrelCrd__label flex-a">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                    <i class="fa-regular fa-bookmark"></i>
+                                </label>
+                                <div class="blogrelCrdHdr">
+                                    <img src="assets/images/blog/9.jpg" alt="" class="blogrelCrdHdr__img">
+                                </div>
+                                <div class="blogrelCrd-body">
+                                    <a href="blog-details.html" class="blogrelCrd-body__h3">
+                                        قد يمكن تعريف المحتوى بصورته الأعم على أنه تلك الرسالة التي يمكن إيصالها
+                                        للمتلقي…
+                                    </a>
+                                    <div class="blogrelCrd-row flex-i justify-between">
+                                        <div class="blogrelCrd-rowBox1">
+                                            <div class="blogrelCrd-rowBox1-mini flex-a">
+                                                <i class="fa-solid fa-palette"></i>
+                                            </div>
+                                            <a href="job-details.html" class="blogrelCrd-rowBox1-link">تطبيقات الويب</a>
+                                        </div>
+                                        <div class="blogrelCrd-row-tag flex-a">
+                                            <i class="fa-solid fa-comment-dots"></i>
+                                            100 تعليق
+                                        </div>
+                                    </div>
+                                    <div class="blogrelCrdFtr">
+                                        <div class="blogrelCrdFtrBox1">
+                                            <img src="assets/images/team/t2.jpg" alt="" class="blogrelCrdFtrBox1__img">
+                                            <div class="blogrelCrdFtrBox1-contnt">
+                                                <h2 class="blogrelCrdFtrBox1-h2">امجد احمد</h2>
+                                                <p class="blogrelCrdFtrBox1-p">محرر</p>
+                                            </div>
+                                        </div>
+                                        <div class="blogrelCrdFtr-tag flex-a">
+                                            <i class="fa-solid fa-clock"></i>
+                                            2023-5-14
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <input type="checkbox" id="a3" class="blogrelCrd__input">
+                            <label for="a3" class="blogrelCrd__label flex-a">
+                                <i class="fa-solid fa-bookmark"></i>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </label>
+                            <div class="blogrelCrd">
+                                <div class="blogrelCrdHdr">
+                                    <img src="assets/images/blog/10.jpg" alt="" class="blogrelCrdHdr__img">
+                                </div>
+                                <div class="blogrelCrd-body">
+                                    <a href="blog-details.html" class="blogrelCrd-body__h3">
+                                        قد يمكن تعريف المحتوى بصورته الأعم على أنه تلك الرسالة التي يمكن إيصالها
+                                        للمتلقي…
+                                    </a>
+                                    <div class="blogrelCrd-row flex-i justify-between">
+                                        <div class="blogrelCrd-rowBox1">
+                                            <div class="blogrelCrd-rowBox1-mini flex-a">
+                                                <i class="fa-solid fa-palette"></i>
+                                            </div>
+                                            <a href="job-details.html" class="blogrelCrd-rowBox1-link">تطبيقات الويب</a>
+                                        </div>
+                                        <div class="blogrelCrd-row-tag flex-a">
+                                            <i class="fa-solid fa-comment-dots"></i>
+                                            100 تعليق
+                                        </div>
+                                    </div>
+                                    <div class="blogrelCrdFtr">
+                                        <div class="blogrelCrdFtrBox1">
+                                            <img src="assets/images/team/t3.jpg" alt="" class="blogrelCrdFtrBox1__img">
+                                            <div class="blogrelCrdFtrBox1-contnt">
+                                                <h2 class="blogrelCrdFtrBox1-h2">امجد احمد</h2>
+                                                <p class="blogrelCrdFtrBox1-p">محرر</p>
+                                            </div>
+                                        </div>
+                                        <div class="blogrelCrdFtr-tag flex-a">
+                                            <i class="fa-solid fa-clock"></i>
+                                            2023-5-14
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blogrelCrd">
+                                <input type="checkbox" id="a4" class="blogrelCrd__input">
+                                <label for="a4" class="blogrelCrd__label flex-a">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                    <i class="fa-regular fa-bookmark"></i>
+                                </label>
+                                <div class="blogrelCrdHdr">
+                                    <img src="assets/images/blog/12.jpg" alt="" class="blogrelCrdHdr__img">
+                                </div>
+                                <div class="blogrelCrd-body">
+                                    <a href="blog-details.html" class="blogrelCrd-body__h3">
+                                        قد يمكن تعريف المحتوى بصورته الأعم على أنه تلك الرسالة التي يمكن إيصالها
+                                        للمتلقي…
+                                    </a>
+                                    <div class="blogrelCrd-row flex-i justify-between">
+                                        <div class="blogrelCrd-rowBox1">
+                                            <div class="blogrelCrd-rowBox1-mini flex-a">
+                                                <i class="fa-solid fa-palette"></i>
+                                            </div>
+                                            <a href="job-details.html" class="blogrelCrd-rowBox1-link">تطبيقات الويب</a>
+                                        </div>
+                                        <div class="blogrelCrd-row-tag flex-a">
+                                            <i class="fa-solid fa-comment-dots"></i>
+                                            100 تعليق
+                                        </div>
+                                    </div>
+                                    <div class="blogrelCrdFtr">
+                                        <div class="blogrelCrdFtrBox1">
+                                            <img src="assets/images/team/t3.jpg" alt="" class="blogrelCrdFtrBox1__img">
+                                            <div class="blogrelCrdFtrBox1-contnt">
+                                                <h2 class="blogrelCrdFtrBox1-h2">امجد احمد</h2>
+                                                <p class="blogrelCrdFtrBox1-p">محرر</p>
+                                            </div>
+                                        </div>
+                                        <div class="blogrelCrdFtr-tag flex-a">
+                                            <i class="fa-solid fa-clock"></i>
+                                            2023-5-14
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blogrelCrd">
+                                <input type="checkbox" id="a5" class="blogrelCrd__input">
+                                <label for="a5" class="blogrelCrd__label flex-a">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                    <i class="fa-regular fa-bookmark"></i>
+                                </label>
+                                <div class="blogrelCrdHdr">
+                                    <img src="assets/images/blog/11.jpg" alt="" class="blogrelCrdHdr__img">
+                                </div>
+                                <div class="blogrelCrd-body">
+                                    <a href="blog-details.html" class="blogrelCrd-body__h3">
+                                        قد يمكن تعريف المحتوى بصورته الأعم على أنه تلك الرسالة التي يمكن إيصالها
+                                        للمتلقي…
+                                    </a>
+                                    <div class="blogrelCrd-row flex-i justify-between">
+                                        <div class="blogrelCrd-rowBox1">
+                                            <div class="blogrelCrd-rowBox1-mini flex-a">
+                                                <i class="fa-solid fa-palette"></i>
+                                            </div>
+                                            <a href="job-details.html" class="blogrelCrd-rowBox1-link">تطبيقات الويب</a>
+                                        </div>
+                                        <div class="blogrelCrd-row-tag flex-a">
+                                            <i class="fa-solid fa-comment-dots"></i>
+                                            100 تعليق
+                                        </div>
+                                    </div>
+                                    <div class="blogrelCrdFtr">
+                                        <div class="blogrelCrdFtrBox1">
+                                            <img src="assets/images/team/t1.jpg" alt="" class="blogrelCrdFtrBox1__img">
+                                            <div class="blogrelCrdFtrBox1-contnt">
+                                                <h2 class="blogrelCrdFtrBox1-h2">امجد احمد</h2>
+                                                <p class="blogrelCrdFtrBox1-p">محرر</p>
+                                            </div>
+                                        </div>
+                                        <div class="blogrelCrdFtr-tag flex-a">
+                                            <i class="fa-solid fa-clock"></i>
+                                            2023-5-14
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blogrelCrd">
+                                <input type="checkbox" id="a6" class="blogrelCrd__input">
+                                <label for="a6" class="blogrelCrd__label flex-a">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                    <i class="fa-regular fa-bookmark"></i>
+                                </label>
+                                <div class="blogrelCrdHdr">
+                                    <img src="assets/images/blog/9.jpg" alt="" class="blogrelCrdHdr__img">
+                                </div>
+                                <div class="blogrelCrd-body">
+                                    <a href="blog-details.html" class="blogrelCrd-body__h3">
+                                        قد يمكن تعريف المحتوى بصورته الأعم على أنه تلك الرسالة التي يمكن إيصالها
+                                        للمتلقي…
+                                    </a>
+                                    <div class="blogrelCrd-row flex-i justify-between">
+                                        <div class="blogrelCrd-rowBox1">
+                                            <div class="blogrelCrd-rowBox1-mini flex-a">
+                                                <i class="fa-solid fa-palette"></i>
+                                            </div>
+                                            <a href="job-details.html" class="blogrelCrd-rowBox1-link">تطبيقات الويب</a>
+                                        </div>
+                                        <div class="blogrelCrd-row-tag flex-a">
+                                            <i class="fa-solid fa-comment-dots"></i>
+                                            100 تعليق
+                                        </div>
+                                    </div>
+                                    <div class="blogrelCrdFtr">
+                                        <div class="blogrelCrdFtrBox1">
+                                            <img src="assets/images/team/t2.jpg" alt="" class="blogrelCrdFtrBox1__img">
+                                            <div class="blogrelCrdFtrBox1-contnt">
+                                                <h2 class="blogrelCrdFtrBox1-h2">امجد احمد</h2>
+                                                <p class="blogrelCrdFtrBox1-p">محرر</p>
+                                            </div>
+                                        </div>
+                                        <div class="blogrelCrdFtr-tag flex-a">
+                                            <i class="fa-solid fa-clock"></i>
+                                            2023-5-14
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <input type="checkbox" id="a7" class="blogrelCrd__input">
+                            <label for="a7" class="blogrelCrd__label flex-a">
+                                <i class="fa-solid fa-bookmark"></i>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </label>
+                            <div class="blogrelCrd">
+                                <div class="blogrelCrdHdr">
+                                    <img src="assets/images/blog/10.jpg" alt="" class="blogrelCrdHdr__img">
+                                </div>
+                                <div class="blogrelCrd-body">
+                                    <a href="blog-details.html" class="blogrelCrd-body__h3">
+                                        قد يمكن تعريف المحتوى بصورته الأعم على أنه تلك الرسالة التي يمكن إيصالها
+                                        للمتلقي…
+                                    </a>
+                                    <div class="blogrelCrd-row flex-i justify-between">
+                                        <div class="blogrelCrd-rowBox1">
+                                            <div class="blogrelCrd-rowBox1-mini flex-a">
+                                                <i class="fa-solid fa-palette"></i>
+                                            </div>
+                                            <a href="job-details.html" class="blogrelCrd-rowBox1-link">تطبيقات الويب</a>
+                                        </div>
+                                        <div class="blogrelCrd-row-tag flex-a">
+                                            <i class="fa-solid fa-comment-dots"></i>
+                                            100 تعليق
+                                        </div>
+                                    </div>
+                                    <div class="blogrelCrdFtr">
+                                        <div class="blogrelCrdFtrBox1">
+                                            <img src="assets/images/team/t3.jpg" alt="" class="blogrelCrdFtrBox1__img">
+                                            <div class="blogrelCrdFtrBox1-contnt">
+                                                <h2 class="blogrelCrdFtrBox1-h2">امجد احمد</h2>
+                                                <p class="blogrelCrdFtrBox1-p">محرر</p>
+                                            </div>
+                                        </div>
+                                        <div class="blogrelCrdFtr-tag flex-a">
+                                            <i class="fa-solid fa-clock"></i>
+                                            2023-5-14
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blogrelCrd">
+                                <input type="checkbox" id="a8" class="blogrelCrd__input">
+                                <label for="a8" class="blogrelCrd__label flex-a">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                    <i class="fa-regular fa-bookmark"></i>
+                                </label>
+                                <div class="blogrelCrdHdr">
+                                    <img src="assets/images/blog/12.jpg" alt="" class="blogrelCrdHdr__img">
+                                </div>
+                                <div class="blogrelCrd-body">
+                                    <a href="blog-details.html" class="blogrelCrd-body__h3">
+                                        قد يمكن تعريف المحتوى بصورته الأعم على أنه تلك الرسالة التي يمكن إيصالها
+                                        للمتلقي…
+                                    </a>
+                                    <div class="blogrelCrd-row flex-i justify-between">
+                                        <div class="blogrelCrd-rowBox1">
+                                            <div class="blogrelCrd-rowBox1-mini flex-a">
+                                                <i class="fa-solid fa-palette"></i>
+                                            </div>
+                                            <a href="job-details.html" class="blogrelCrd-rowBox1-link">تطبيقات الويب</a>
+                                        </div>
+                                        <div class="blogrelCrd-row-tag flex-a">
+                                            <i class="fa-solid fa-comment-dots"></i>
+                                            100 تعليق
+                                        </div>
+                                    </div>
+                                    <div class="blogrelCrdFtr">
+                                        <div class="blogrelCrdFtrBox1">
+                                            <img src="assets/images/team/t3.jpg" alt="" class="blogrelCrdFtrBox1__img">
+                                            <div class="blogrelCrdFtrBox1-contnt">
+                                                <h2 class="blogrelCrdFtrBox1-h2">امجد احمد</h2>
+                                                <p class="blogrelCrdFtrBox1-p">محرر</p>
+                                            </div>
+                                        </div>
+                                        <div class="blogrelCrdFtr-tag flex-a">
+                                            <i class="fa-solid fa-clock"></i>
+                                            2023-5-14
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="newletter">
+            <div class="container">
+                <h2 class="newletter__h">إشترك بالنشرة البريدية </h2>
+                <div class="newletterBox">
+                    <p class="newletterBox__p">
+                        اشتراكك في النشرة البريدية يعني أنك ستحصل على آخر التحديثات والأخبار المتعلقة بخدماتنا ومنتجاتنا
+                        مباشرة في صندوق البريد الإلكتروني الخاص بك.
+                    </p>
+                    <form action="" class="newletterBox-form">
+                        <input type="text" placeholder="بريدك الإلكتروني" class="newletterBox-form-input">
+                        <button type="submit" class="newletterBox__btn">إشترك</button>
+                    </form>
+                    <img src="assets/images/newsletter.png" alt="" class="newletterBox__img">
+                </div>
+            </div>
+        </section>
+        <!-- newletter end -->
+        <footer class="footer">
+            <img src="assets/images/map2.png" alt="" class="footer__bg">
+            <div class="container">
+                <div class="footer_wrpr">
+                    <div class="footerBox1">
+                        <div class="footerBox1-logo-row">
+                            <img src="assets/images/logo-sm.png" alt="" class="footerBox1__img">
+                            <p class="footerBox1__p">
+                                شركة ميغا ميديا هي شركة تكنولوجيا
+                                معلوماتية متخصصة في تطوير وتقديم حلول البرمجيات
+                            </p>
+                        </div>
+                        <div class="footerCrd">
+                            <div class="footerCrdinner">
+                                <img src="assets/images/t5.png" alt="" class="footerCrd__img">
+                                <h2 class="footerCrd__h">مهندس. حمزة الأحمدي</h2>
+                                <div class="footerCrd-row">
+                                    <i class="fa-solid fa-road-circle-check"></i>
+                                    <p class="footerCrd-name">المدير التنفيذي</p>
+                                </div>
+                                <p class="footerCrd__p">
+                                    تتميز شركة ميغا ميديا ​​بالابتكار والإبداع والحلول التقنية الفعالة و فريق عمل
+                                    إحترافي
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footerBox1Row flex-i justify-between">
+                            <img src="assets/images/team.png" alt="" class="footerBox1Row__img">
+                            <a href="#" class="footerBox1Row__link flex-a">المزيد</a>
+                        </div>
+                    </div>
+                    <div class="footerBox2">
+                        <img src="assets/images/border.png" alt="" class="footer_wrpr_bg">
+                        <div class="footerBox2-wrpr">
+                            <div class="footerBox2Col1">
+                                <div class="footerBox2__tab">ميغا ميديا</div>
+                                <ul class="footerBox2List">
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">الرئيسية</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">من نحن</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">خدماتنا</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">المشاريع</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">فريق العمل</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">الوظائف</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">المدونة</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تواصل معنا</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footerBox2Col2">
+                                <img src="assets/images/gradient-bg.png" alt="" class="footerBox2Col2__bg">
+                                <div class="footerBox2__tab">خدماتنا</div>
+                                <ul class="footerBox2List">
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">خدمات الإستضافة</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تصميم المواقع</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطبيقات الهاتف</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطبيقات سطح المكتب</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تصميم الجرافيكس</a>
+                                    </li>
+                                </ul>
+                                <img src="assets/images/ftrimg.png" alt="" class="footerBox2Col2-img">
+                            </div>
+                            <div class="footerBox2Col3">
+                                <div class="footerBox2__tab">المشاريع</div>
+                                <ul class="footerBox2List">
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">المتاجر الإلكترونية</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطوير العقارات</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطبيقات الصيانة</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">تطبيقات الحجوزات</a>
+                                    </li>
+                                    <li class="footerBox2List__item">
+                                        <a href="#" class="footerBox2List__link">الطلبات والتوصيل</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="footerBox3">
+                        <div class="footerBox3Box1">
+                            <img src="assets/images/man7.png" alt="" class="footerBox3Box1__img">
+                        </div>
+                        <div class="footerBox3Box2">
+                            <h3 class="footerBox3Box2__h3">حول فكرتك الي تطبيق</h3>
+                            <a href="#" class="footerBox3Box2__link flex-a">أطلب</a>
+                            <img src="assets/images/mob1.png" alt="" class="footerBox3Box2__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerBtm">
+                <div class="container">
+                    <div class="footerBtm-wrpr flex-i justify-between">
+                        <ul class="footerBtmList">
+                            <li class="footerBtmList__item">
+                                <a href="#" class="footerBtmList__link">الشروط والاحكام</a>
+                            </li>
+                            <li class="footerBtmList__item">
+                                <a href="#" class="footerBtmList__link">سياسة الخصوصة</a>
+                            </li>
+                            <li class="footerBtmList__item">
+                                <a href="#" class="footerBtmList__link">تواصل معنا</a>
+                            </li>
+                            <li class="footerBtmList__item">
+                                <a href="#" class="footerBtmList__link">مركز المساعدة</a>
+                            </li>
+                        </ul>
+                        <p class="footerBtm-p">جميع الحقوق محفوظة لدي شركة ميغا ميديا @ 2023</p>
+                        <ul class="soclsmlist">
+                            <li class="soclsmlist__item">
+                                <a href="#" class="soclsmlist__link">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="soclsmlist__item">
+                                <a href="#" class="soclsmlist__link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="soclsmlist__item">
+                                <a href="#" class="soclsmlist__link">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="soclsmlist__item">
+                                <a href="#" class="soclsmlist__link">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="btmtotop">
+            <a href="tel:00971563255653" class="btmtotop__link btmtotop__link1 flex-a r-50">
+                <i class="fa-solid fa-message"></i>
+                <div class="btmtotop__link-tab flex-a">Contact us</div>
+            </a>
+            <a href="https://wa.me/00971563255653" class="btmtotop__link btmtotop__link2 flex-a r-50">
+                <i class="fa-brands fa-whatsapp"></i>
+                <div class="btmtotop__link-tab flex-a">Whatsapp</div>
+            </a>
+            <a href="#" class="btmtotop__link btmtotop__link3 flex-a r-50">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/blog.js"></script>
+    <script src="assets/js/blog-detail.js"></script>
+
+</body>
+
+</html>
